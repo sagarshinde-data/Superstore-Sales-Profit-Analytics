@@ -1,0 +1,501 @@
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,City,State,Postal_Code,Region,Product_ID,Category,Sub_Category,Product_Name,Sales,Quantity,Discount,Profit,Payment_Method
+1,CA-16802-001,2023-06-30,2023-07-01,Second Class,CU-3212,  Amit Patil  ,Home Office,United States,Los Angeles,California,53752,West,PROD-818,Office Supplies,Binders,File Binder,960.23,1,0.2,102.21,Cash
+2,CA-15752-002,2025-05-08,2025-05-12,Standard Class,CU-3329,Emma Davis,Consumer,United States,Seattle,Washington,48248,West,PROD-540,Furniture,Furnishings,Desk Lamp,36.36,2,0.25,4.42,PayPal
+3,CA-84031-003,2023-12-05,2023-12-10,First Class,CU-1205,Rahul Sharma,Home Office,United States,New York City,New York,77208,East,PROD-544,Office Supplies,Binders,File Binder,533.02,8,0.2,89.41,PayPal
+4,CA-96255-004,2024-11-10,2024-11-11,First Class,CU-3787,Amit Patil,Corporate,United States,Dallas,Texas,82641,Central,PROD-500,Technology,Copiers, Color Copier ,1820.05,3,0.0,506.72,Credit Card
+5,CA-56126-005,2022-02-03,2022-02-05,Second Class,CU-7647,David Miller,Home Office,United States,Philadelphia,Pennsylvania,47710,East,PROD-606,Office Supplies,Art,Drawing Paper,2082.38,2,0.1,99.72,Cash
+6,CA-69813-006,2025-01-03,2025-01-07,Second Class,CU-1344,Sophia Thomas,Corporate,United States,Dallas,Texas,99780,Central,PROD-378,Office Supplies,Paper,Copy Paper,1884.09,7,0.0,98.99,PayPal
+7,CA-11122-007,2025-06-18,2025-06-19,Same Day,CU-2203,Rahul Sharma,Consumer,United States,Columbus,Ohio,52266,East,PROD-368,Office Supplies,Binders,Ring Binder,1773.49,6,0.0,280.74,PayPal
+8,CA-99004-008,2023-12-15,2023-12-16,Second Class,CU-7096,Daniel Anderson,Home Office,United States,Los Angeles,California,20273,West,PROD-944,Technology,Machines,Calculator,2212.02,3,0.15,124.21,Credit Card
+9,CA-80113-009,2022-10-27,2022-11-02,First Class,CU-9472,Michael Brown,Home Office,United States,Phoenix,Arizona,31864,West,PROD-921,Technology,Copiers,Color Copier,1944.81,5,0.15,234.94,PayPal
+10,CA-97665-010,2025-09-30,2025-10-01,Same Day,CU-5977,Neha Joshi,Consumer,United States,Atlanta,Georgia,30786,South,PROD-634,Furniture,Tables,Office Table,1135.32,6,0.25,200.14,UPI
+11,CA-45618-011,2024-10-21,2024-10-22,Second Class,CU-4330,Amit Patil,Corporate,United States,Denver,Colorado,62189,West,PROD-144,Technology,Accessories, Headphones ,577.76,6,0.2,62.41,Credit Card
+12,CA-82683-012,2023-02-02,2023-02-05,Second Class,CU-9752,Emma Davis,Corporate,United States,Portland,Oregon,74526,West,PROD-848,Technology,Accessories,USB Keyboard,231.05,4,0.1,14.75,PayPal
+13,CA-10781-013,2023-11-29,2023-12-03,Same Day,CU-6626,Michael Brown,Home Office,United States,Phoenix,Arizona,16873,West,PROD-469,Furniture,Bookcases,Metal Bookcase,2104.04,4,0.05,404.64,PayPal
+14,CA-33681-014,2024-01-05,2024-01-07,Same Day,CU-2023,Neha Joshi,Corporate,United States,Miami,Florida,75599,South,PROD-371,Technology,Copiers,Color Copier,870.72,8,0.3,59.8,Cash
+15,CA-52235-015,2022-05-22,2022-05-25,Standard Class,CU-7235,David Miller,Home Office,United States,Denver,Colorado,60911,West,PROD-405,Technology,Copiers,Color Copier,2272.37,2,0.2,463.47,Credit Card
+16,CA-42560-016,2025-08-17,2025-08-21,Same Day,CU-9208,Sophia Thomas,Corporate,United States,Houston,Texas,16393,Central,PROD-286,Technology,Machines,Printer,2105.31,5,0.2,324.86,Credit Card
+17,CA-58467-017,2022-09-28,2022-10-02,Second Class,CU-1526,William Martin,Home Office,United States,Los Angeles,California,88826,West,PROD-892,Office Supplies,Appliances,Desk Fan,1186.36,1,0.2,81.04,UPI
+18,CA-64533-018,2024-03-02,2024-03-04,First Class,CU-7962,David Miller,Home Office,United States,Philadelphia,Pennsylvania,11701,East,PROD-608,Technology,Phones,Office Phone,2181.54,2,0.1,180.64,Cash
+19,CA-39378-019,2024-12-23,2024-12-30,First Class,CU-9647,Sarah Wilson,Consumer,United States,Portland,Oregon,68028,West,PROD-727,Furniture,Bookcases,Wood Bookcase,770.83,4,0.3,145.18,UPI
+20,CA-95732-020,2024-03-14,2024-03-18,Same Day,CU-9475,Priya Shah,Consumer,United States,Phoenix,Arizona,74648,West,PROD-237,Furniture,Chairs,Conference Chair,295.15,8,0.2,37.35,Cash
+21,CA-96011-021,2023-05-16,2023-05-18,First Class,CU-9960,John Smith,Consumer,United States,Detroit,Michigan,42314,Central,PROD-848,Furniture,Tables,Wooden Table,1021.05,2,0.0,53.85,PayPal
+22,CA-30037-022,2022-08-19,2022-08-22,Same Day,CU-4685,Neha Joshi,Consumer,United States,Philadelphia,Pennsylvania,76920,East,PROD-778,Office Supplies,Paper,Printer Paper,545.79,6,0.0,129.44,PayPal
+23,CA-24003-023,2022-06-07,2022-06-11,Second Class,CU-2998,William Martin,Corporate,United States,Atlanta,Georgia,82326,South,PROD-729,Technology,Accessories,Laptop Stand,731.23,1,0.15,144.7,Credit Card
+24,CA-22433-024,2024-01-13,2024-01-15,First Class,CU-2356,Olivia Moore,Corporate,United States,Houston,Texas,33567,Central,PROD-528,Technology,Machines,Calculator,2342.81,7,0.0,414.98,Cash
+25,CA-69979-025,2022-11-29,2022-06-12,Same Day,CU-4290,Rahul Sharma,Consumer,United States,Detroit,Michigan,17389,Central,PROD-255,Office Supplies,Paper,Copy Paper,840.94,2,0.0,72.83,Credit Card
+26,CA-41344-026,2025-09-30,2025-10-01,Second Class,CU-8066,Amit Patil,Home Office,United States,Houston,Texas,28745,Central,PROD-191,Technology,Phones,Smartphone,1109.9,6,0.3,198.06,Credit Card
+27,CA-24460-027,2023-12-09,2023-12-16,Second Class,CU-5719,Daniel Anderson,Consumer,United States,New York City,New York,83052,East,PROD-911,Office Supplies,Appliances,Desk Fan,2040.34,4,0.0,382.65,Credit Card
+28,CA-14354-028,2025-02-11,2025-02-14,First Class,CU-6732,Amit Patil,Home Office,United States,Phoenix,Arizona,10431,West,PROD-919,Technology,Machines,Calculator,1572.7,6,0.3,169.78,UPI
+29,CA-88162-029,2024-02-15,2024-02-21,Second Class,CU-7538,  Sarah Wilson  ,Consumer,United States,Dallas,Texas,36915,Central,PROD-839,Furniture,Bookcases,Wood Bookcase,1532.82,3,0.15,345.3,UPI
+30,CA-91970-030,2024-03-04,2024-03-05,Second Class,CU-4156,Priya Shah,Consumer,United States,Atlanta,Georgia,23214,South,PROD-239,Office Supplies,Storage,Storage Box,1827.23,5,0.3,356.14,Credit Card
+31,CA-44076-031,2022-04-27,2022-04-30,Standard Class,CU-9764,Michael Brown,Corporate,United States,New York City,New York,47605,East,PROD-918,Furniture,Chairs,Ergonomic Chair,342.63,6,0.15,21.32,UPI
+32,CA-57024-032,2022-08-20,2022-08-25,Second Class,CU-3167,Rahul Sharma,Consumer,United States,Houston,Texas,64442,Central,PROD-314,Furniture,Chairs,Office Chair,2332.09,2,0.15,514.06,Cash
+33,CA-50052-033,2022-06-21,2022-06-23,Standard Class,CU-1390,Michael Brown,Home Office,United States,Detroit,Michigan,61602,Central,PROD-372,Furniture,Furnishings,Desk Lamp,1064.83,5,0.3,201.99,Credit Card
+34,CA-47340-034,2023-09-30,2023-10-05,Second Class,CU-7995,Olivia Moore,Corporate,United States,Columbus,Ohio,15894,East,PROD-532,Technology,Accessories,Headphones,2482.8,6,0.25,160.73,Credit Card
+35,CA-34880-035,2022-04-07,2022-04-12,Same Day,CU-8111,Priya Shah,Consumer,United States,Denver,Colorado,38337,West,PROD-191,Furniture,Tables,Conference Table,2245.83,4,0.0,364.37,PayPal
+36,CA-16653-036,2023-03-03,2023-03-09,Same Day,CU-8741,Rahul Sharma,Corporate,United States,Los Angeles,California,96758,West,PROD-286,Technology,Machines,Printer,407.34,1,0.25,55.4,PayPal
+37,CA-96681-037,2022-03-31,2022-04-02,First Class,CU-6976,Neha Joshi,Home Office,United States,Atlanta,Georgia,44498,South,PROD-390,Technology,Phones,Smartphone,1648.15,3,0.25,103.81,PayPal
+38,CA-88724-038,2025-04-03,2025-04-08,Standard Class,CU-8439,Daniel Anderson,Home Office,United States,Denver,Colorado,82251,West,PROD-590,Furniture,Chairs,Office Chair,1308.97,3,0.2,299.37,Credit Card
+39,CA-86873-039,2025-08-19,2025-08-25,First Class,CU-4255,James Taylor,Consumer,United States,Miami,Florida,59139,South,PROD-153,Office Supplies,Art,Drawing Paper,2087.07,5,0.3,278.56,Credit Card
+40,CA-76385-040,2022-08-03,2022-08-09,Standard Class,CU-8997,Daniel Anderson,Home Office,United States,Houston,Texas,78842,Central,PROD-609,Office Supplies,Art,Art Pens,594.19,2,0.15,148.4,UPI
+41,CA-16912-041,2023-11-23,2023-11-29,Second Class,CU-7045,David Miller,Consumer,United States,Miami,Florida,29290,South,PROD-926,Technology,Copiers,Color Copier,457.61,8,0.0,106.26,Cash
+42,CA-10686-042,2025-02-17,2025-02-19,Same Day,CU-3552,Sophia Thomas,Corporate,United States,Columbus,Ohio,98697,East,PROD-617,Technology,Copiers,Office Copier,1934.46,3,0.15,287.81,PayPal
+43,CA-21567-043,2024-03-22,2024-03-25,First Class,CU-8264,  William Martin  ,Consumer,United States,Portland,Oregon,24635,West,PROD-138,Furniture,Furnishings,Office Furnishing,1601.92,1,0.3,172.81,UPI
+44,CA-95638-044,2025-04-20,2025-04-26,Same Day,CU-4315,Emily White,Corporate,United States,Miami,Florida,93802,South,PROD-958,Office Supplies,Paper,Printer Paper,1670.62,6,0.0,160.65,Credit Card
+45,CA-16148-045,2024-01-01,2024-01-06,Standard Class,CU-3105,John Smith,Home Office,United States,Miami,Florida,73710,South,PROD-627,Technology,Accessories,Headphones,1691.87,5,0.1,154.49,PayPal
+46,CA-74002-046,2023-01-21,2023-01-23,Standard Class,CU-7486,Sarah Wilson,Corporate,United States,Atlanta,Georgia,76804,South,PROD-484,Technology,Copiers,Office Copier,587.64,6,0.25,67.73,Credit Card
+47,CA-94581-047,2024-01-25,2024-01-27,Same Day,CU-8156,William Martin,Home Office,United States,Portland,Oregon,15293,West,PROD-524,Office Supplies,Binders,Ring Binder,224.36,4,0.0,34.9,Credit Card
+48,CA-34304-048,2024-02-10,2024-02-17,Standard Class,CU-1441,William Martin,Corporate,United States,San Diego,California,75548,West,PROD-429,Office Supplies,Labels,Shipping Labels,932.1,6,0.0,124.23,Credit Card
+49,CA-80043-049,2025-10-12,2025-12-13,Standard Class,CU-8715,Emma Davis,Consumer,United States,Denver,Colorado,53277,West,PROD-346,Furniture,Bookcases,Metal Bookcase,813.08,3,0.15,96.88,PayPal
+50,CA-70718-050,2023-02-08,2023-02-12,First Class,CU-8149,Robert Jackson,Consumer,United States,Dallas,Texas,95368,Central,PROD-503,Furniture,Bookcases,Wood Bookcase,1976.46,8,0.15,347.1,PayPal
+51,CA-64557-051,2025-03-05,2025-03-10,Same Day,CU-5468,Daniel Anderson,Corporate,United States,San Diego,California,32934,West,PROD-632,Technology,Machines,Calculator,598.21,3,0.0,53.99,Cash
+52,CA-27677-052,2025-04-09,2025-04-13,Second Class,CU-6640,Emma Davis,Consumer,United States,Detroit,Michigan,49887,Central,PROD-525,Technology,Copiers,Office Copier,933.26,2,0.25,145.71,Cash
+53,CA-50513-053,2025-06-09,2025-06-16,Second Class,CU-8329,John Smith,Consumer,United States,Seattle,Washington,30770,West,PROD-890,Office Supplies,Storage,Storage Box,755.82,4,0.2,120.04,UPI
+54,CA-70533-054,2022-03-22,2022-03-23,Same Day,CU-3818,Michael Brown,Home Office,United States,Chicago,Illinois,78706,Central,PROD-151,Technology,Accessories,Headphones,122.39,4,0.05,8.24,Cash
+55,CA-58338-055,2023-05-02,2023-05-08,Same Day,CU-1369,Emily White,Corporate,United States,Columbus,Ohio,66781,East,PROD-542,Furniture,Furnishings,Desk Lamp,443.65,5,0.3,25.45,Cash
+56,CA-35865-056,2023-04-14,2023-04-17,Second Class,CU-9674,James Taylor,Consumer,United States,Detroit,Michigan,75355,Central,PROD-862,Technology,Accessories,Mouse,1274.31,8,0.25,188.17,Credit Card
+57,CA-63105-057,2025-12-06,2025-12-07,Second Class,CU-4796,  Neha Joshi  ,Home Office,United States,San Diego,California,20224,West,PROD-909,Office Supplies,Appliances,Coffee Maker,1803.15,8,0.25,380.65,UPI
+58,CA-21865-058,2023-04-29,2023-05-01,Same Day,CU-9403,Robert Jackson,Corporate,United States,New York City,New York,19307,East,PROD-289,Technology,Machines,Calculator,2454.96,4,0.0,527.92,PayPal
+59,CA-44742-059,2025-01-20,2025-01-23,First Class,CU-3084,William Martin,Home Office,United States,Miami,Florida,71312,South,PROD-971,Technology,Phones,Office Phone,1906.45,2,0.25,80.21,UPI
+60,CA-43357-060,2023-12-20,2023-12-23,First Class,CU-9635,Sarah Wilson,Consumer,United States,San Diego,California,11205,West,PROD-759,Technology,Copiers,Color Copier,592.35,2,0.1,154.6,UPI
+61,CA-69390-061,2022-11-05,2022-11-07,Second Class,CU-9985,  Daniel Anderson  ,Home Office,United States,Miami,Florida,66140,South,PROD-480,Office Supplies,Art,Drawing Paper,465.01,4,0.25,46.41,PayPal
+62,CA-40272-062,2024-03-20,2024-03-25,Same Day,CU-4693,Daniel Anderson,Consumer,United States,Seattle,Washington,88522,West,PROD-452,Office Supplies,Labels,Shipping Labels,1724.44,7,0.0,390.95,PayPal
+63,CA-12995-063,2025-08-29,2025-09-02,First Class,CU-3183,Sophia Thomas,Consumer,United States,Phoenix,Arizona,74426,West,PROD-286,Technology,Machines,Printer,1146.26,6,0.25,54.62,Cash
+64,CA-64969-064,2025-08-12,2025-08-15,First Class,CU-6325,Emma Davis,Consumer,United States,Portland,Oregon,40434,West,PROD-858,Technology,Accessories,Mouse,1376.71,7,0.0,200.2,PayPal
+65,CA-73090-065,2022-12-10,2022-12-14,Standard Class,CU-1907,Daniel Anderson,Consumer,United States,Columbus,Ohio,70858,East,PROD-886,Office Supplies,Binders,File Binder,2352.88,5,0.15,371.72,PayPal
+66,CA-39112-066,2025-06-26,2025-03-07,Standard Class,CU-2080,  Sarah Wilson  ,Home Office,United States,Portland,Oregon,80499,West,PROD-616,Furniture,Furnishings,Desk Lamp,2442.46,6,0.05,665.83,PayPal
+67,CA-36058-067,2025-07-30,2025-08-01,Second Class,CU-4153,David Miller,Home Office,United States,Dallas,Texas,98820,Central,PROD-629,Technology,Copiers,Color Copier,2005.59,6,0.3,290.53,Cash
+68,CA-58774-068,2023-08-11,2023-08-13,Second Class,CU-6976,michael brown,Home Office,United States,Columbus,Ohio,67413,East,PROD-974,Office Supplies,Storage,File Storage,815.45,7,0.05,68.29,Credit Card
+69,CA-95947-069,2025-08-20,2025-08-25,Standard Class,CU-3806,Olivia Moore,Corporate,United States,Philadelphia,Pennsylvania,94135,East,PROD-521,Furniture,Bookcases,Wood Bookcase,2389.55,7,0.3,396.99,Cash
+70,CA-98630-070,2025-04-20,2025-04-23,First Class,CU-8955,Priya Shah,Home Office,United States,Houston,Texas,86598,Central,PROD-475,Technology,Machines,Printer,2307.91,5,0.2,416.07,Cash
+71,CA-57266-071,2025-08-15,2025-08-17,Same Day,CU-9077,Olivia Moore,Consumer,United States,Houston,Texas,53063,Central,PROD-125,Office Supplies,Labels,Address Labels,1606.6,3,0.25,75.15,Cash
+72,CA-59614-072,2022-09-18,2022-09-21,Second Class,CU-1089,  Sarah Wilson  ,Home Office,United States,Columbus,Ohio,93005,East,PROD-706,Furniture,Tables,Conference Table,1099.82,4,0.2,157.0,Cash
+73,CA-62076-073,2022-04-21,2022-04-28,Standard Class,CU-9807,Robert Jackson,Home Office,United States,Detroit,Michigan,59844,Central,PROD-809,Technology,Accessories,Mouse,866.45,8,0.05,179.45,Cash
+74,CA-14903-074,2023-11-02,2023-04-11,Second Class,CU-8166,Amit Patil,Corporate,United States,Denver,Colorado,24397,West,PROD-118,Technology,Copiers,Office Copier,1347.26,6,0.2,211.0,PayPal
+75,CA-43490-075,2022-05-09,2022-05-11,Second Class,CU-4108,daniel anderson,Corporate,United States,Los Angeles,California,13017,West,PROD-137,Technology,Phones,Office Phone,348.22,2,0.25,25.49,Credit Card
+76,CA-86138-076,2025-02-05,2025-02-07,Second Class,CU-2883,Neha Joshi,Consumer,United States,Dallas,Texas,70474,Central,PROD-165,Furniture,Furnishings,Office Furnishing,1844.04,3,0.15,369.09,UPI
+77,CA-42145-077,2024-12-07,2024-07-17,Second Class,CU-2394,Sophia Thomas,Home Office,United States,Denver,Colorado,50165,West,PROD-197,Technology,Phones,Smartphone,2056.01,4,0.05,219.29,Cash
+78,CA-18318-078,2024-01-14,2024-01-15,First Class,CU-2292,Rahul Sharma,Consumer,United States,Portland,Oregon,58201,West,PROD-971,Furniture,Bookcases,Metal Bookcase,1294.95,4,0.1,62.38,UPI
+79,CA-24150-079,2025-02-12,2025-02-16,Standard Class,CU-8759,Rahul Sharma,Consumer,United States,Detroit,Michigan,78598,Central,PROD-959,Office Supplies,Labels,Address Labels,116.02,8,0.3,19.66,Credit Card
+80,CA-49663-080,2022-09-11,2022-11-11,First Class,CU-2031,William Martin,Consumer,United States,Detroit,Michigan,21791,Central,PROD-381,Technology,Accessories,Headphones,1565.15,3,0.2,263.27,Credit Card
+81,CA-91452-081,2023-11-25,2023-11-26,First Class,CU-9736,Amit Patil,Corporate,United States,New York City,New York,92931,East,PROD-758,Office Supplies,Appliances,Desk Fan,1172.18,3,0.05,273.69,UPI
+82,CA-61789-082,2024-07-20,2024-07-23,Second Class,CU-7377,Robert Jackson,Corporate,United States,Seattle,Washington,80310,West,PROD-876,Furniture,Tables,Conference Table,252.03,2,0.3,19.76,UPI
+83,CA-97966-083,2024-06-18,2024-06-24,Same Day,CU-2988,  Sophia Thomas  ,Consumer,United States,Columbus,Ohio,42491,East,PROD-187,Technology,Phones, Smartphone ,364.22,3,0.15,26.22,Credit Card
+84,CA-84305-084,2022-10-08,2022-10-11,Standard Class,CU-9592,Rahul Sharma,Corporate,United States,Chicago,Illinois,65748,Central,PROD-890,Technology,Machines,Calculator,753.23,7,0.05,199.49,Credit Card
+85,CA-99012-085,2025-04-10,2025-10-09,Second Class,CU-9392,Robert Jackson,Consumer,United States,New York City,New York,51101,East,PROD-288,Furniture,Bookcases,Metal Bookcase,1153.37,4,0.05,114.47,UPI
+86,CA-90902-086,2024-06-05,2024-05-12,Standard Class,CU-4636,William Martin,Corporate,United States,San Diego,California,32419,West,PROD-933,Office Supplies,Storage,Storage Box,1885.59,8,0.0,230.96,UPI
+87,CA-28666-087,2024-06-24,2024-06-26,Same Day,CU-2052,Olivia Moore,Corporate,United States,New York City,New York,32065,East,PROD-122,Office Supplies,Binders,Ring Binder,2140.84,1,0.1,237.58,Cash
+88,CA-72801-088,2025-01-27,2025-02-01,First Class,CU-3979,Neha Joshi,Corporate,United States,San Diego,California,22320,West,PROD-125,Furniture,Tables,Conference Table,166.84,1,0.0,18.44,UPI
+89,CA-48305-089,2024-10-29,2024-03-11,Second Class,CU-9184,John Smith,Corporate,United States,Portland,Oregon,28250,West,PROD-421,Technology,Copiers,Color Copier,1348.91,1,0.05,128.17,PayPal
+90,CA-52639-090,2022-10-18,2022-10-25,Standard Class,CU-4353,  Priya Shah  ,Home Office,United States,Phoenix,Arizona,13014,West,PROD-308,Technology,Copiers, Color Copier ,1928.19,2,0.3,264.8,UPI
+91,CA-25784-091,2025-12-17,2025-12-24,Same Day,CU-6666,Michael Brown,Home Office,United States,Houston,Texas,34933,Central,PROD-302,Technology,Copiers,Office Copier,1146.02,8,0.05,287.08,Credit Card
+92,CA-86617-092,2023-06-13,2023-06-17,Standard Class,CU-1083,Robert Jackson,Home Office,United States,Portland,Oregon,44156,West,PROD-545,Technology,Accessories,Mouse,1890.94,5,0.25,310.59,Credit Card
+93,CA-74804-093,2024-04-13,2024-04-20,Same Day,CU-3499,James Taylor,Consumer,United States,Los Angeles,California,66630,West,PROD-788,Office Supplies,Appliances,Desk Fan,1429.71,6,0.15,360.88,Credit Card
+94,CA-96897-094,2022-01-11,2022-01-15,First Class,CU-5355,James Taylor,Corporate,United States,Miami,Florida,80256,South,PROD-272,Furniture,Chairs,Conference Chair,1525.13,3,0.0,160.8,PayPal
+95,CA-56851-095,2023-08-12,2023-08-15,Standard Class,CU-5255,Sarah Wilson,Home Office,United States,Denver,Colorado,38495,West,PROD-144,Technology,Phones,Office Phone,93.8,7,0.0,17.36,PayPal
+96,CA-38176-096,2023-06-28,2023-07-01,Same Day,CU-7721,Daniel Anderson,Consumer,United States,Dallas,Texas,32148,Central,PROD-376,Furniture,Tables,Office Table,695.58,7,0.05,125.27,PayPal
+97,CA-57923-097,2023-08-07,2023-12-08,First Class,CU-7079,Amit Patil,Home Office,United States,Chicago,Illinois,57725,Central,PROD-990,Office Supplies,Binders,File Binder,509.44,1,0.05,132.47,Credit Card
+98,CA-71929-098,2023-06-05,2023-06-07,First Class,CU-9853,Daniel Anderson,Corporate,United States,San Diego,California,74633,West,PROD-882,Technology,Accessories,Headphones,2285.12,6,0.25,369.23,UPI
+99,CA-59681-099,2024-10-08,2024-12-10,Second Class,CU-9721,Robert Jackson,Corporate,United States,Denver,Colorado,18999,West,PROD-380,Technology,Copiers,Color Copier,1474.09,1,0.25,83.27,UPI
+100,CA-38149-100,2024-02-01,2024-04-01,First Class,CU-2265,Neha Joshi,Consumer,United States,San Diego,California,97307,West,PROD-769,Furniture,Tables,Office Table,1767.05,6,0.25,329.46,PayPal
+101,CA-16068-101,2024-11-21,2024-11-23,Standard Class,CU-9966,James Taylor,Consumer,United States,Los Angeles,California,42198,West,PROD-446,Technology,Copiers,Office Copier,2477.79,1,0.2,178.36,Credit Card
+102,CA-41035-102,2024-02-20,2024-02-23,Standard Class,CU-5467,Sarah Wilson,Home Office,United States,Dallas,Texas,80246,Central,PROD-168,Technology,Accessories,Laptop Stand,818.12,3,0.05,122.24,Credit Card
+103,CA-16848-103,2022-11-13,2022-11-19,Second Class,CU-2072,  James Taylor  ,Consumer,United States,Dallas,Texas,61028,Central,PROD-887,Technology,Phones,Office Phone,2053.03,8,0.15,285.4,Cash
+104,CA-73448-104,2025-05-15,2025-05-16,First Class,CU-2510,Emma Davis,Corporate,United States,Portland,Oregon,73677,West,PROD-861,Technology,Phones,Office Phone,1181.61,7,0.2,258.57,Cash
+105,CA-93960-105,2024-10-24,2024-10-26,Standard Class,CU-7254,Sarah Wilson,Corporate,United States,San Diego,California,78031,West,PROD-378,Technology,Copiers,Color Copier,830.46,7,0.05,109.26,UPI
+106,CA-59249-106,2025-02-09,2025-02-12,Same Day,CU-9571,Robert Jackson,Corporate,United States,Miami,Florida,58705,South,PROD-935,Technology,Copiers,Office Copier,476.93,1,0.15,95.11,PayPal
+107,CA-19960-107,2025-09-12,2025-09-16,Second Class,CU-6592,Neha Joshi,Home Office,United States,Detroit,Michigan,14936,Central,PROD-589,Furniture,Furnishings,Office Furnishing,704.67,2,0.05,67.36,Cash
+108,CA-34138-108,2024-07-16,2024-07-17,First Class,CU-3207,Michael Brown,Home Office,United States,Houston,Texas,29950,Central,PROD-681,Office Supplies,Binders,Ring Binder,251.49,5,0.2,16.9,Credit Card
+109,CA-37862-109,2025-06-02,2025-06-07,Standard Class,CU-5786,Sophia Thomas,Consumer,United States,Miami,Florida,59201,South,PROD-378,Office Supplies,Labels,Address Labels,2120.69,7,0.15,229.4,Credit Card
+110,CA-95369-110,2024-08-08,2024-08-15,Standard Class,CU-6247,Neha Joshi,Consumer,United States,San Diego,California,47994,West,PROD-155,Furniture,Tables,Conference Table,2045.32,1,0.05,159.61,Credit Card
+111,CA-65186-111,2023-12-03,2023-12-09,Same Day,CU-5382,Sarah Wilson,Consumer,United States,Detroit,Michigan,65499,Central,PROD-403,Technology,Accessories,Mouse,1812.47,5,0.1,317.34,Credit Card
+112,CA-90882-112,2022-11-23,2022-11-26,First Class,CU-6066,Olivia Moore,Corporate,United States,Portland,Oregon,68944,West,PROD-640,Technology,Machines,Calculator,954.87,6,0.3,56.76,UPI
+113,CA-98601-113,2024-01-22,2024-01-29,Standard Class,CU-3863,William Martin,Consumer,United States,Denver,Colorado,29543,West,PROD-758,Technology,Machines,Calculator,150.77,4,0.3,30.66,Credit Card
+114,CA-76167-114,2024-07-20,2024-07-22,Standard Class,CU-1248,Emma Davis,Consumer,United States,San Diego,California,98059,West,PROD-214,Furniture,Tables,Wooden Table,2025.64,2,0.25,164.19,PayPal
+115,CA-41588-115,2024-10-13,2024-10-15,Standard Class,CU-7249,neha joshi,Corporate,United States,Columbus,Ohio,54047,East,PROD-726,Technology,Accessories,Mouse,2237.73,1,0.15,398.25,Credit Card
+116,CA-79717-116,2025-02-26,2025-03-03,First Class,CU-7258,John Smith,Corporate,United States,Los Angeles,California,57648,West,PROD-346,Technology,Phones,Office Phone,682.12,8,0.15,129.01,PayPal
+117,CA-72462-117,2022-03-05,2022-03-09,Same Day,CU-9402,James Taylor,Corporate,United States,New York City,New York,92811,East,PROD-874,Technology,Machines,Printer,2447.91,1,0.3,275.87,PayPal
+118,CA-79145-118,2024-12-28,2024-12-31,First Class,CU-9931,Amit Patil,Home Office,United States,Chicago,Illinois,46015,Central,PROD-989,Technology,Machines,Calculator,944.4,6,0.2,93.32,PayPal
+119,CA-22788-119,2025-06-29,2025-06-30,Same Day,CU-5482,Sarah Wilson,Corporate,United States,Phoenix,Arizona,52238,West,PROD-892,Furniture,Tables,Conference Table,2332.84,3,0.3,211.71,Credit Card
+120,CA-56427-120,2024-01-04,2024-01-05,Second Class,CU-7701,David Miller,Consumer,United States,New York City,New York,89949,East,PROD-526,Technology,Accessories,Headphones,662.33,8,0.0,124.41,Credit Card
+121,CA-56867-121,2025-09-01,2025-03-09,Standard Class,CU-1041,Emily White,Home Office,United States,Dallas,Texas,52537,Central,PROD-601,Technology,Machines,Printer,2492.59,4,0.15,149.96,Credit Card
+122,CA-88027-122,2025-08-13,2025-08-16,Same Day,CU-7712,Daniel Anderson,Corporate,United States,Chicago,Illinois,97219,Central,PROD-280,Office Supplies,Labels,Address Labels,833.83,4,0.25,177.28,Credit Card
+123,CA-22893-123,2025-05-16,2025-05-22,First Class,CU-3367,David Miller,Home Office,United States,Miami,Florida,62655,South,PROD-180,Technology,Machines,Calculator,580.42,5,0.0,48.39,PayPal
+124,CA-62826-124,2024-02-08,2024-02-09,Standard Class,CU-9980,Olivia Moore,Corporate,United States,San Diego,California,70367,West,PROD-597,Technology,Accessories,Laptop Stand,491.97,2,0.2,48.49,PayPal
+125,CA-26456-125,2024-06-11,2024-06-15,Same Day,CU-9238,William Martin,Home Office,United States,Portland,Oregon,75000,West,PROD-406,Office Supplies,Appliances,Desk Fan,1848.81,2,0.15,193.02,Credit Card
+126,CA-16674-126,2025-03-07,2025-03-08,Standard Class,CU-2811,Robert Jackson,Consumer,United States,Houston,Texas,36532,Central,PROD-645,Technology,Machines,Calculator,955.7,6,0.2,88.12,Credit Card
+127,CA-25487-127,2024-08-06,2024-08-12,First Class,CU-8221,James Taylor,Consumer,United States,Seattle,Washington,19907,West,PROD-338,Technology,Phones,Smartphone,1162.61,2,0.3,63.06,Credit Card
+128,CA-22210-128,2022-01-11,2022-01-14,Standard Class,CU-4524,Amit Patil,Home Office,United States,Philadelphia,Pennsylvania,61863,East,PROD-574,Office Supplies,Appliances,Coffee Maker,496.82,2,0.0,61.3,PayPal
+129,CA-93344-129,2022-08-23,2022-08-30,Standard Class,CU-7928,Rahul Sharma,Home Office,United States,Detroit,Michigan,65622,Central,PROD-947,Furniture,Chairs, Ergonomic Chair ,1535.8,4,0.1,95.05,Cash
+130,CA-43939-130,2025-05-01,2025-04-05,Same Day,CU-6150,Amit Patil,Consumer,United States,Atlanta,Georgia,61296,South,PROD-983,Office Supplies,Storage,File Storage,1932.97,4,0.05,303.12,UPI
+131,CA-15922-131,2024-03-23,2024-03-30,Second Class,CU-9749,Daniel Anderson,Consumer,United States,Columbus,Ohio,72714,East,PROD-448,Technology,Machines,Calculator,629.96,3,0.3,64.79,Cash
+132,CA-86628-132,2023-07-25,2023-07-27,Standard Class,CU-5368,Michael Brown,Home Office,United States,Houston,Texas,85150,Central,PROD-980,Office Supplies,Storage,File Storage,2179.97,8,0.1,330.17,Cash
+133,CA-19735-133,2025-04-02,2025-04-09,Same Day,CU-1204,William Martin,Home Office,United States,Dallas,Texas,93178,Central,PROD-435,Technology,Accessories,USB Keyboard,2339.19,3,0.05,510.58,Cash
+134,CA-92697-134,2023-11-04,2023-11-07,First Class,CU-7143,Olivia Moore,Corporate,United States,Columbus,Ohio,15859,East,PROD-691,Technology,Machines,Printer,822.12,4,0.0,125.88,UPI
+135,CA-79534-135,2023-06-05,2023-06-06,First Class,CU-3707,Daniel Anderson,Home Office,United States,Denver,Colorado,39873,West,PROD-755,Technology,Accessories,Mouse,1075.71,2,0.25,237.17,PayPal
+136,CA-13822-136,2025-10-25,2025-10-31,Second Class,CU-8245,Sarah Wilson,Home Office,United States,Chicago,Illinois,49164,Central,PROD-234,Technology,Phones,Smartphone,2105.52,4,0.15,292.4,UPI
+137,CA-23572-137,2025-10-25,2025-11-01,Standard Class,CU-6259,Sarah Wilson,Consumer,United States,Atlanta,Georgia,71983,South,PROD-985,Technology,Accessories,Laptop Stand,2370.07,3,0.05,264.94,UPI
+138,CA-62471-138,2022-06-26,2022-07-02,First Class,CU-4040,Priya Shah,Consumer,United States,Chicago,Illinois,52178,Central,PROD-833,Furniture,Chairs,Conference Chair,1660.18,3,0.15,330.35,UPI
+139,CA-48006-139,2022-01-25,2022-02-01,Second Class,CU-2029,Rahul Sharma,Corporate,United States,Phoenix,Arizona,37888,West,PROD-707,Furniture,Tables,Office Table,1986.44,7,0.3,393.46,Cash
+140,CA-66261-140,2025-03-07,2025-03-14,Standard Class,CU-9016,John Smith,Consumer,United States,Phoenix,Arizona,99181,West,PROD-499,Furniture,Furnishings,Desk Lamp,2356.17,6,0.25,438.05,Cash
+141,CA-31228-141,2023-01-09,2023-01-16,First Class,CU-4806,John Smith,Home Office,United States,San Diego,California,70762,West,PROD-196,Office Supplies,Art,Drawing Paper,2016.08,5,0.25,179.51,Cash
+142,CA-93709-142,2023-09-22,2023-09-27,Second Class,CU-4627,Emily White,Home Office,United States,Houston,Texas,30710,Central,PROD-123,Furniture,Chairs,Conference Chair,1089.31,6,0.05,196.56,Cash
+143,CA-77014-143,2023-11-04,2023-11-06,First Class,CU-1828,David Miller,Consumer,United States,Portland,Oregon,72836,West,PROD-814,Furniture,Tables,Conference Table,1559.9,4,0.3,75.39,Credit Card
+144,CA-81258-144,2023-06-28,2023-06-30,Standard Class,CU-1511,Emily White,Home Office,United States,Chicago,Illinois,58541,Central,PROD-895,Office Supplies,Binders, Ring Binder ,2223.2,4,0.15,321.64,PayPal
+145,CA-25589-145,2024-04-19,2024-04-26,Second Class,CU-7720,Robert Jackson,Corporate,United States,San Diego,California,20167,West,PROD-223,Furniture,Bookcases,Wood Bookcase,2219.58,3,0.05,411.19,UPI
+146,CA-97840-146,2023-10-17,2023-10-24,First Class,CU-8316,Olivia Moore,Corporate,United States,Houston,Texas,79363,Central,PROD-123,Furniture,Tables,Office Table,344.77,3,0.0,85.71,Credit Card
+147,CA-38768-147,2024-03-24,2024-03-28,Standard Class,CU-7616,David Miller,Home Office,United States,Houston,Texas,44791,Central,PROD-169,Furniture,Tables,Conference Table,2372.72,2,0.0,385.38,Cash
+148,CA-95756-148,2025-04-24,2025-04-30,Same Day,CU-4438,Emma Davis,Consumer,United States,Dallas,Texas,51987,Central,PROD-787,Furniture,Tables,Conference Table,346.59,8,0.25,46.79,Cash
+149,CA-16856-149,2022-07-02,2022-02-09,Same Day,CU-3719,michael brown,Corporate,United States,Atlanta,Georgia,38479,South,PROD-730,Technology,Machines,Printer,526.52,2,0.05,35.17,PayPal
+150,CA-75253-150,2022-09-04,2022-04-10,Second Class,CU-3604,James Taylor,Corporate,United States,Portland,Oregon,17005,West,PROD-658,Technology,Copiers,Office Copier,940.23,2,0.1,224.03,UPI
+151,CA-77893-151,2024-08-04,2024-04-11,Second Class,CU-7199,Robert Jackson,Corporate,United States,Portland,Oregon,29266,West,PROD-505,Technology,Accessories,Laptop Stand,1857.38,6,0.3,68.85,UPI
+152,CA-10617-152,2025-07-30,2025-02-08,Standard Class,CU-1612,David Miller,Home Office,United States,Denver,Colorado,24274,West,PROD-826,Furniture,Tables,Office Table,825.4,5,0.25,115.65,PayPal
+153,CA-38346-153,2024-11-29,2024-11-30,Same Day,CU-4654,  Robert Jackson  ,Corporate,United States,Dallas,Texas,11044,Central,PROD-789,Office Supplies,Binders,Ring Binder,846.98,3,0.1,47.54,PayPal
+154,CA-98485-154,2022-10-16,2022-10-20,First Class,CU-6773,sarah wilson,Home Office,United States,Houston,Texas,98704,Central,PROD-997,Office Supplies,Paper,Copy Paper,1561.6,2,0.3,97.32,PayPal
+155,CA-98507-155,2024-10-29,2024-11-02,Standard Class,CU-1647,Robert Jackson,Corporate,United States,New York City,New York,60345,East,PROD-600,Office Supplies,Binders,File Binder,396.12,3,0.15,82.64,PayPal
+156,CA-35642-156,2023-10-17,2023-10-24,Standard Class,CU-2017,David Miller,Corporate,United States,Detroit,Michigan,36249,Central,PROD-152,Technology,Machines,Calculator,435.97,7,0.05,107.17,PayPal
+157,CA-91520-157,2023-07-03,2023-07-07,Second Class,CU-3050,William Martin,Home Office,United States,Houston,Texas,10633,Central,PROD-133,Office Supplies,Art,Drawing Paper,30.64,5,0.05,8.05,Cash
+158,CA-82589-158,2025-08-31,2025-09-03,First Class,CU-8411,Michael Brown,Home Office,United States,Denver,Colorado,89879,West,PROD-522,Office Supplies,Labels,Shipping Labels,54.32,2,0.05,14.73,PayPal
+159,CA-58743-159,2025-07-07,2025-07-10,Standard Class,CU-5569,Sarah Wilson,Corporate,United States,New York City,New York,28330,East,PROD-195,Technology,Phones,Smartphone,2385.19,4,0.0,423.54,PayPal
+160,CA-87053-160,2023-07-17,2023-07-23,Standard Class,CU-1049,James Taylor,Home Office,United States,Miami,Florida,92886,South,PROD-209,Furniture,Tables,Office Table,58.38,8,0.15,6.35,Credit Card
+161,CA-52154-161,2024-03-31,2024-04-02,Standard Class,CU-8021,Olivia Moore,Corporate,United States,Portland,Oregon,94193,West,PROD-813,Office Supplies,Binders,File Binder,2363.14,4,0.0,187.81,Cash
+162,CA-40661-162,2025-05-26,2025-05-27,Standard Class,CU-5243,David Miller,Consumer,United States,Seattle,Washington,26552,West,PROD-747,Technology,Accessories,Mouse,73.39,7,0.2,13.16,UPI
+163,CA-77335-163,2025-01-15,2025-01-18,First Class,CU-4690,Olivia Moore,Corporate,United States,Columbus,Ohio,64443,East,PROD-138,Furniture,Tables, Office Table ,32.81,5,0.05,8.76,PayPal
+164,CA-60762-164,2025-10-27,2025-11-02,Standard Class,CU-2119,Michael Brown,Home Office,United States,Dallas,Texas,46933,Central,PROD-543,Office Supplies,Appliances,Coffee Maker,1459.62,1,0.1,366.93,Credit Card
+165,CA-45073-165,2025-06-22,2025-06-23,Standard Class,CU-8511,John Smith,Corporate,United States,Denver,Colorado,68088,West,PROD-940,Furniture,Furnishings,Desk Lamp,2477.43,1,0.15,168.26,PayPal
+166,CA-76762-166,2025-09-13,2025-09-15,First Class,CU-6315,Daniel Anderson,Corporate,United States,Phoenix,Arizona,53844,West,PROD-407,Office Supplies,Binders,File Binder,2097.97,2,0.1,488.91,Cash
+167,CA-11795-167,2022-02-04,2022-04-03,Standard Class,CU-7538,  John Smith  ,Corporate,United States,Atlanta,Georgia,31629,South,PROD-647,Technology,Machines,Printer,1043.74,1,0.05,190.28,PayPal
+168,CA-94875-168,2022-02-13,2022-02-14,First Class,CU-6476,William Martin,Home Office,United States,Los Angeles,California,81490,West,PROD-817,Office Supplies,Binders,Ring Binder,58.35,7,0.05,6.43,Cash
+169,CA-69048-169,2024-04-18,2024-04-22,Standard Class,CU-3594,Rahul Sharma,Consumer,United States,Dallas,Texas,97833,Central,PROD-124,Office Supplies,Appliances,Desk Fan,1653.69,8,0.3,238.03,UPI
+170,CA-92963-170,2025-04-28,2025-03-05,Second Class,CU-2681,amit patil,Corporate,United States,Houston,Texas,34922,Central,PROD-353,Furniture,Bookcases,Metal Bookcase,2466.22,1,0.25,186.84,PayPal
+171,CA-33294-171,2024-04-29,2024-05-06,Standard Class,CU-5041,Olivia Moore,Corporate,United States,New York City,New York,91418,East,PROD-929,Furniture,Furnishings,Desk Lamp,1995.16,2,0.15,156.69,PayPal
+172,CA-79655-172,2023-01-28,2023-02-02,Same Day,CU-3799,Robert Jackson,Corporate,United States,Chicago,Illinois,51766,Central,PROD-252,Technology,Copiers,Office Copier,1385.85,7,0.15,76.67,Cash
+173,CA-14763-173,2024-08-17,2024-08-24,Second Class,CU-9906,Sarah Wilson,Consumer,United States,Chicago,Illinois,45088,Central,PROD-278,Furniture,Furnishings,Office Furnishing,727.05,5,0.15,36.98,UPI
+174,CA-28541-174,2025-01-19,2025-01-20,Standard Class,CU-6497,Neha Joshi,Corporate,United States,Atlanta,Georgia,70967,South,PROD-385,Technology,Machines,Printer,1790.43,6,0.1,292.25,PayPal
+175,CA-45382-175,2023-07-30,2023-08-05,First Class,CU-3917,James Taylor,Consumer,United States,Detroit,Michigan,61042,Central,PROD-518,Furniture,Tables,Conference Table,362.5,3,0.0,50.7,UPI
+176,CA-75965-176,2023-02-15,2023-02-22,Standard Class,CU-3229,james taylor,Corporate,United States,San Diego,California,21691,West,PROD-777,Furniture,Tables,Conference Table,744.37,6,0.05,195.79,PayPal
+177,CA-68439-177,2025-03-30,2025-04-06,Standard Class,CU-9189,Olivia Moore,Corporate,United States,Philadelphia,Pennsylvania,43741,East,PROD-362,Furniture,Furnishings,Desk Lamp,1882.82,7,0.0,422.47,Cash
+178,CA-97815-178,2024-08-04,2024-08-06,First Class,CU-3821,robert jackson,Corporate,United States,Houston,Texas,19437,Central,PROD-576,Office Supplies,Binders,Ring Binder,897.32,8,0.1,117.42,UPI
+179,CA-98963-179,2022-06-01,2022-06-03,Second Class,CU-6175,Michael Brown,Consumer,United States,San Diego,California,78650,West,PROD-331,Technology,Machines,Calculator,128.32,5,0.15,23.09,Cash
+180,CA-65904-180,2024-02-15,2024-02-21,Second Class,CU-3820,Amit Patil,Home Office,United States,Philadelphia,Pennsylvania,25776,East,PROD-491,Furniture,Chairs,Conference Chair,1033.25,4,0.0,308.24,PayPal
+181,CA-71703-181,2024-05-06,2024-05-09,First Class,CU-1045,  David Miller  ,Home Office,United States,San Diego,California,82240,West,PROD-805,Office Supplies,Appliances,Coffee Maker,737.37,8,0.25,94.82,Credit Card
+182,CA-82837-182,2024-12-24,2024-12-30,First Class,CU-8447,David Miller,Home Office,United States,New York City,New York,95909,East,PROD-693,Furniture,Chairs,Conference Chair,2032.03,3,0.1,353.71,UPI
+183,CA-19731-183,2024-11-02,2024-11-06,Standard Class,CU-8437,Emily White,Corporate,United States,Philadelphia,Pennsylvania,17868,East,PROD-293,Office Supplies,Art,Art Pens,539.07,5,0.2,69.45,Credit Card
+184,CA-38847-184,2023-11-24,2023-11-27,First Class,CU-4459,Rahul Sharma,Home Office,United States,Portland,Oregon,70811,West,PROD-794,Office Supplies,Binders,Ring Binder,1160.39,6,0.3,182.02,Credit Card
+185,CA-40890-185,2022-05-26,2022-05-31,Second Class,CU-6029,Rahul Sharma,Home Office,United States,Portland,Oregon,78762,West,PROD-283,Furniture,Bookcases,Metal Bookcase,1883.59,7,0.2,204.32,PayPal
+186,CA-42295-186,2024-07-29,2024-07-30,Standard Class,CU-5665,Michael Brown,Consumer,United States,Los Angeles,California,64076,West,PROD-137,Technology,Machines,Calculator,144.59,7,0.15,19.32,Credit Card
+187,CA-54190-187,2024-12-23,2024-12-24,Same Day,CU-9678,Rahul Sharma,Consumer,United States,San Diego,California,82690,West,PROD-892,Furniture,Bookcases,Wood Bookcase,1684.81,8,0.25,158.39,Cash
+188,CA-91703-188,2022-02-03,2022-09-02,Standard Class,CU-6731,John Smith,Home Office,United States,Detroit,Michigan,44952,Central,PROD-305,Office Supplies,Appliances,Coffee Maker,1105.53,3,0.05,199.16,Credit Card
+189,CA-18514-189,2023-06-12,2023-06-13,Standard Class,CU-7873,John Smith,Home Office,United States,Seattle,Washington,74517,West,PROD-934,Office Supplies,Binders,File Binder,1406.29,4,0.15,162.48,UPI
+190,CA-82298-190,2022-08-02,2022-08-05,Second Class,CU-4583,Olivia Moore,Corporate,United States,Columbus,Ohio,23802,East,PROD-199,Furniture,Chairs,Office Chair,1832.22,5,0.2,143.72,Cash
+191,CA-81041-191,2024-06-05,2024-06-10,Standard Class,CU-3709,William Martin,Home Office,United States,Dallas,Texas,79432,Central,PROD-115,Technology,Accessories,Laptop Stand,119.3,2,0.2,9.33,PayPal
+192,CA-59749-192,2022-08-04,2022-08-10,First Class,CU-6798,John Smith,Corporate,United States,Portland,Oregon,54226,West,PROD-368,Office Supplies,Appliances,Coffee Maker,1109.16,8,0.2,83.02,Credit Card
+193,CA-46510-193,2024-11-10,2024-10-12,First Class,CU-9164,Neha Joshi,Corporate,United States,Chicago,Illinois,37541,Central,PROD-288,Technology,Phones, Office Phone ,1533.7,8,0.0,108.45,UPI
+194,CA-38287-194,2022-12-18,2022-12-21,Same Day,CU-6044,  Michael Brown  ,Corporate,United States,Denver,Colorado,38437,West,PROD-366,Furniture,Furnishings,Desk Lamp,1883.86,4,0.05,368.69,UPI
+195,CA-46244-195,2025-03-11,2025-03-15,Same Day,CU-3386,Emma Davis,Corporate,United States,Houston,Texas,65751,Central,PROD-272,Technology,Accessories, USB Keyboard ,778.84,3,0.3,96.25,UPI
+196,CA-80584-196,2024-02-22,2024-02-28,First Class,CU-1591,Robert Jackson,Home Office,United States,Columbus,Ohio,34466,East,PROD-561,Technology,Machines,Printer,2343.77,8,0.2,357.92,Cash
+197,CA-99313-197,2022-08-29,2022-08-31,First Class,CU-9820,William Martin,Home Office,United States,Columbus,Ohio,88525,East,PROD-795,Furniture,Tables,Office Table,385.23,5,0.05,86.43,PayPal
+198,CA-70133-198,2024-01-02,2024-08-02,Standard Class,CU-2653,Rahul Sharma,Consumer,United States,Miami,Florida,75422,South,PROD-435,Furniture,Chairs,Office Chair,1242.44,3,0.15,213.16,PayPal
+199,CA-99663-199,2025-11-14,2025-11-20,Same Day,CU-7752,Sarah Wilson,Home Office,United States,Dallas,Texas,51708,Central,PROD-411,Technology,Phones,Office Phone,1556.56,8,0.2,160.47,PayPal
+200,CA-51916-200,2024-12-08,2024-12-13,Same Day,CU-2258,Emily White,Home Office,United States,Seattle,Washington,55265,West,PROD-123,Technology,Accessories,USB Keyboard,688.48,5,0.25,104.48,PayPal
+201,CA-82518-201,2022-07-25,2022-07-30,Same Day,CU-7566,Neha Joshi,Corporate,United States,Seattle,Washington,13247,West,PROD-655,Office Supplies,Art,Drawing Paper,194.67,8,0.25,8.91,Cash
+202,CA-80857-202,2024-03-08,2024-03-12,Standard Class,CU-1876,Robert Jackson,Home Office,United States,San Diego,California,79945,West,PROD-344,Furniture,Tables,Conference Table,1129.29,8,0.15,145.84,Cash
+203,CA-11690-203,2025-07-22,2025-07-26,First Class,CU-8318,Sarah Wilson,Consumer,United States,Detroit,Michigan,50878,Central,PROD-515,Furniture,Bookcases,Metal Bookcase,1358.92,5,0.25,168.02,PayPal
+204,CA-84620-204,2023-10-30,2023-11-06,First Class,CU-9926,Neha Joshi,Home Office,United States,Atlanta,Georgia,43879,South,PROD-324,Furniture,Tables,Conference Table,968.44,1,0.3,130.35,UPI
+205,CA-26412-205,2023-09-15,2023-09-16,First Class,CU-4880,  Michael Brown  ,Consumer,United States,Seattle,Washington,60313,West,PROD-547,Furniture,Chairs,Office Chair,344.15,4,0.15,34.68,Cash
+206,CA-88524-206,2024-11-30,2024-12-05,Same Day,CU-5398,Neha Joshi,Home Office,United States,San Diego,California,20011,West,PROD-163,Technology,Accessories, Headphones ,1471.49,5,0.0,330.18,Cash
+207,CA-47594-207,2023-05-08,2023-05-14,Second Class,CU-3247,Sophia Thomas,Consumer,United States,Detroit,Michigan,30039,Central,PROD-995,Furniture,Chairs,Conference Chair,2443.53,8,0.25,514.8,Cash
+208,CA-27479-208,2023-12-24,2023-12-31,First Class,CU-3591,James Taylor,Corporate,United States,Philadelphia,Pennsylvania,12962,East,PROD-747,Furniture,Tables,Conference Table,298.87,2,0.0,75.77,PayPal
+209,CA-28816-209,2022-10-13,2022-10-15,Same Day,CU-7023,  Michael Brown  ,Corporate,United States,Columbus,Ohio,71196,East,PROD-207,Office Supplies,Labels,Shipping Labels,1497.24,2,0.15,359.47,Cash
+210,CA-59796-210,2025-02-14,2025-02-20,Second Class,CU-7307,William Martin,Corporate,United States,Portland,Oregon,65595,West,PROD-813,Furniture,Chairs,Ergonomic Chair,2227.95,7,0.05,562.12,Cash
+211,CA-57376-211,2022-01-22,2022-01-23,Second Class,CU-4750,William Martin,Home Office,United States,Seattle,Washington,65202,West,PROD-902,Furniture,Tables,Office Table,180.23,6,0.0,48.28,Cash
+212,CA-43914-212,2024-08-31,2024-09-03,Second Class,CU-3408,John Smith,Corporate,United States,Dallas,Texas,59085,Central,PROD-415,Technology,Phones,Office Phone,40.29,2,0.3,3.28,Credit Card
+213,CA-83616-213,2024-05-26,2024-06-01,Same Day,CU-7689,Amit Patil,Home Office,United States,Dallas,Texas,97811,Central,PROD-946,Furniture,Tables,Office Table,832.36,6,0.0,199.19,Credit Card
+214,CA-19241-214,2024-10-31,2024-11-05,First Class,CU-7222,Neha Joshi,Consumer,United States,Denver,Colorado,47235,West,PROD-750,Technology,Accessories,USB Keyboard,369.89,4,0.3,20.68,UPI
+215,CA-77346-215,2024-03-17,2024-03-19,First Class,CU-9316,Emily White,Corporate,United States,Miami,Florida,69301,South,PROD-980,Technology,Phones,Smartphone,949.12,3,0.2,129.37,UPI
+216,CA-70534-216,2023-08-23,2023-08-28,Second Class,CU-1326,Emma Davis,Consumer,United States,Columbus,Ohio,72994,East,PROD-335,Office Supplies,Appliances,Desk Fan,2321.46,6,0.1,374.77,UPI
+217,CA-47235-217,2025-09-28,2025-09-29,Same Day,CU-6049,Neha Joshi,Consumer,United States,Columbus,Ohio,47974,East,PROD-718,Office Supplies,Paper,Printer Paper,255.7,6,0.25,43.3,PayPal
+218,CA-26932-218,2025-09-22,2025-09-27,Standard Class,CU-2308,Olivia Moore,Consumer,United States,Portland,Oregon,84908,West,PROD-205,Furniture,Bookcases,Wood Bookcase,798.46,6,0.3,76.28,Cash
+219,CA-58397-219,2024-08-24,2024-08-25,Second Class,CU-8179,Emma Davis,Corporate,United States,Los Angeles,California,18372,West,PROD-147,Technology,Phones,Office Phone,1759.03,2,0.0,194.01,Credit Card
+220,CA-82591-220,2023-08-05,2023-08-10,Same Day,CU-3780,Robert Jackson,Home Office,United States,Los Angeles,California,72750,West,PROD-848,Technology,Copiers,Color Copier,828.61,2,0.25,82.64,Credit Card
+221,CA-10732-221,2025-02-19,2025-02-22,First Class,CU-2621,Rahul Sharma,Consumer,United States,Denver,Colorado,82195,West,PROD-822,Technology,Phones,Office Phone,155.71,8,0.25,25.65,PayPal
+222,CA-89896-222,2025-05-12,2025-05-17,Same Day,CU-1548,Rahul Sharma,Home Office,United States,Portland,Oregon,72169,West,PROD-977,Technology,Accessories,Mouse,1182.25,5,0.05,318.22,PayPal
+223,CA-13077-223,2024-05-07,2024-07-10,Standard Class,CU-4609,Neha Joshi,Consumer,United States,Philadelphia,Pennsylvania,42880,East,PROD-543,Office Supplies,Labels,Shipping Labels,1329.18,1,0.2,129.17,Cash
+224,CA-15427-224,2025-04-25,2025-04-28,Second Class,CU-9504,Priya Shah,Corporate,United States,Los Angeles,California,93493,West,PROD-684,Furniture,Tables,Office Table,1179.23,7,0.3,136.9,PayPal
+225,CA-53014-225,2023-08-18,2023-08-20,Standard Class,CU-3886,David Miller,Consumer,United States,Denver,Colorado,26387,West,PROD-905,Furniture,Tables,Conference Table,1351.24,2,0.0,215.5,Cash
+226,CA-32729-226,2023-06-30,2023-07-07,Standard Class,CU-3552,William Martin,Consumer,United States,Dallas,Texas,78949,Central,PROD-103,Office Supplies,Storage,File Storage,1799.4,7,0.25,176.67,PayPal
+227,CA-64901-227,2022-10-26,2022-10-31,Second Class,CU-9293,William Martin,Consumer,United States,Atlanta,Georgia,66471,South,PROD-418,Office Supplies,Appliances,Desk Fan,44.72,1,0.1,3.82,Credit Card
+228,CA-19489-228,2025-11-07,2025-11-09,Standard Class,CU-4689,William Martin,Corporate,United States,Atlanta,Georgia,10047,South,PROD-415,Technology,Accessories,Headphones,969.12,1,0.25,107.56,Cash
+229,CA-40884-229,2023-11-20,2023-11-27,Same Day,CU-3140,Priya Shah,Consumer,United States,Chicago,Illinois,85237,Central,PROD-985,Technology,Machines,Calculator,2126.62,8,0.05,297.73,UPI
+230,CA-54703-230,2024-12-22,2024-12-29,Second Class,CU-7441,Michael Brown,Consumer,United States,Portland,Oregon,40789,West,PROD-466,Technology,Accessories,Headphones,1981.48,5,0.3,371.43,Credit Card
+231,CA-95667-231,2023-08-24,2023-08-25,Standard Class,CU-1823,Robert Jackson,Consumer,United States,Phoenix,Arizona,23335,West,PROD-333,Technology,Machines, Printer ,257.35,5,0.25,24.88,PayPal
+232,CA-32774-232,2024-10-20,2024-10-23,Standard Class,CU-3810,Sarah Wilson,Corporate,United States,Denver,Colorado,73759,West,PROD-436,Technology,Copiers,Office Copier,1689.13,8,0.1,77.24,UPI
+233,CA-10461-233,2023-04-20,2023-04-23,First Class,CU-4566,Emma Davis,Home Office,United States,Dallas,Texas,26318,Central,PROD-267,Furniture,Chairs,Ergonomic Chair,2199.18,7,0.0,220.02,Credit Card
+234,CA-62748-234,2025-03-23,2025-03-30,Standard Class,CU-6693,Priya Shah,Consumer,United States,Atlanta,Georgia,40873,South,PROD-883,Office Supplies,Storage,Storage Box,869.7,4,0.2,53.53,UPI
+235,CA-82822-235,2025-10-27,2025-10-29,Same Day,CU-2960,Emily White,Corporate,United States,Columbus,Ohio,87156,East,PROD-328,Furniture,Bookcases,Wood Bookcase,996.88,1,0.15,184.96,Cash
+236,CA-14943-236,2022-07-27,2022-07-28,Same Day,CU-2527,James Taylor,Consumer,United States,San Diego,California,20473,West,PROD-159,Technology,Copiers,Office Copier,806.24,5,0.1,209.98,UPI
+237,CA-29233-237,2022-06-16,2022-06-22,Standard Class,CU-4554,Emily White,Home Office,United States,Detroit,Michigan,48412,Central,PROD-938,Office Supplies,Art,Drawing Paper,1942.84,7,0.1,239.01,UPI
+238,CA-50062-238,2022-06-05,2022-06-06,Same Day,CU-2446,Emma Davis,Corporate,United States,New York City,New York,30486,East,PROD-809,Office Supplies,Paper,Printer Paper,2294.07,6,0.25,96.45,Credit Card
+239,CA-33470-239,2022-05-23,2022-05-29,Standard Class,CU-5554,David Miller,Consumer,United States,Los Angeles,California,46951,West,PROD-219,Technology,Accessories,USB Keyboard,72.25,5,0.05,10.27,PayPal
+240,CA-95522-240,2022-05-24,2022-05-29,First Class,CU-4127,William Martin,Home Office,United States,Los Angeles,California,86976,West,PROD-450,Furniture,Tables,Wooden Table,2109.56,2,0.3,219.85,Cash
+241,CA-94391-241,2025-10-12,2025-10-18,Second Class,CU-8580,Emma Davis,Corporate,United States,Seattle,Washington,18857,West,PROD-441,Technology,Machines,Calculator,1274.64,3,0.05,291.55,Credit Card
+242,CA-56570-242,2022-02-18,2022-02-22,Second Class,CU-7017,Emma Davis,Home Office,United States,Philadelphia,Pennsylvania,58784,East,PROD-258,Office Supplies,Appliances,Desk Fan,2140.32,5,0.05,135.2,UPI
+243,CA-67822-243,2023-07-09,2023-09-14,First Class,CU-7439,James Taylor,Consumer,United States,New York City,New York,19176,East,PROD-821,Technology,Accessories,Mouse,921.84,7,0.1,71.33,UPI
+244,CA-71844-244,2025-07-01,2025-01-10,Second Class,CU-1945,William Martin,Corporate,United States,Detroit,Michigan,97389,Central,PROD-788,Office Supplies,Labels,Address Labels,2019.44,8,0.25,78.56,UPI
+245,CA-75956-245,2024-04-30,2024-05-01,Second Class,CU-2759,David Miller,Corporate,United States,Atlanta,Georgia,47549,South,PROD-318,Furniture,Furnishings,Desk Lamp,198.28,6,0.25,34.61,UPI
+246,CA-96685-246,2025-12-18,2025-12-21,Same Day,CU-4793,Emily White,Home Office,United States,New York City,New York,73179,East,PROD-696,Office Supplies,Storage,File Storage,384.08,8,0.15,36.99,Credit Card
+247,CA-39408-247,2022-03-15,2022-03-16,Same Day,CU-9816,James Taylor,Home Office,United States,Atlanta,Georgia,74405,South,PROD-964,Office Supplies,Binders,Ring Binder,764.27,7,0.2,149.88,Credit Card
+248,CA-35332-248,2023-12-25,2023-12-30,Same Day,CU-7323,William Martin,Corporate,United States,Philadelphia,Pennsylvania,29265,East,PROD-897,Technology,Accessories,Mouse,440.82,8,0.15,92.91,Cash
+249,CA-54226-249,2024-04-10,2024-10-10,First Class,CU-9596,William Martin,Home Office,United States,New York City,New York,84910,East,PROD-349,Office Supplies,Paper,Printer Paper,370.26,3,0.2,68.8,PayPal
+250,CA-77678-250,2025-07-26,2025-01-08,Standard Class,CU-6019,David Miller,Corporate,United States,New York City,New York,19852,East,PROD-644,Technology,Machines,Calculator,528.5,8,0.2,125.35,Credit Card
+251,CA-60641-251,2022-06-29,2022-07-05,Same Day,CU-2307,  Neha Joshi  ,Consumer,United States,Seattle,Washington,33499,West,PROD-895,Technology,Phones,Smartphone,1479.91,3,0.1,193.0,PayPal
+252,CA-21429-252,2025-04-14,2025-04-19,First Class,CU-1684,William Martin,Home Office,United States,Houston,Texas,34885,Central,PROD-854,Office Supplies,Paper,Printer Paper,1905.55,6,0.3,154.53,Credit Card
+253,CA-11409-253,2022-05-02,2022-05-04,Same Day,CU-5373,  Neha Joshi  ,Corporate,United States,Miami,Florida,25536,South,PROD-955,Office Supplies,Binders,Ring Binder,1420.55,2,0.0,398.58,Credit Card
+254,CA-34770-254,2025-04-01,2025-04-03,First Class,CU-8485,Emily White,Corporate,United States,Detroit,Michigan,30419,Central,PROD-199,Furniture,Bookcases,Wood Bookcase,2077.64,2,0.1,506.34,PayPal
+255,CA-67379-255,2024-07-15,2024-07-22,Same Day,CU-5111,  David Miller  ,Home Office,United States,Denver,Colorado,92972,West,PROD-409,Office Supplies,Appliances,Desk Fan,399.26,2,0.0,98.02,PayPal
+256,CA-17114-256,2025-08-16,2025-08-19,Second Class,CU-4338,James Taylor,Corporate,United States,Dallas,Texas,69737,Central,PROD-986,Office Supplies,Storage,File Storage,1605.64,7,0.3,118.27,Cash
+257,CA-52697-257,2024-11-21,2024-11-26,First Class,CU-2573,Olivia Moore,Home Office,United States,Chicago,Illinois,90455,Central,PROD-901,Office Supplies,Art,Drawing Paper,1977.04,4,0.05,534.91,UPI
+258,CA-27173-258,2025-09-28,2025-10-03,Standard Class,CU-1772,Michael Brown,Corporate,United States,Detroit,Michigan,70992,Central,PROD-516,Furniture,Chairs,Ergonomic Chair,2355.39,3,0.2,530.33,UPI
+259,CA-85682-259,2025-12-05,2025-12-06,Standard Class,CU-5603,Olivia Moore,Home Office,United States,Chicago,Illinois,84868,Central,PROD-558,Technology,Copiers, Color Copier ,1589.76,8,0.1,140.45,UPI
+260,CA-68307-260,2024-11-12,2024-11-13,Standard Class,CU-8646,William Martin,Consumer,United States,Detroit,Michigan,32222,Central,PROD-511,Technology,Machines,Printer,1691.65,3,0.3,219.58,Credit Card
+261,CA-99018-261,2024-07-03,2024-07-06,Same Day,CU-8787,William Martin,Corporate,United States,Phoenix,Arizona,30336,West,PROD-821,Office Supplies,Paper,Printer Paper,871.33,2,0.3,34.1,PayPal
+262,CA-63171-262,2024-08-13,2024-08-15,Standard Class,CU-9329,Neha Joshi,Corporate,United States,Phoenix,Arizona,87491,West,PROD-752,Technology,Machines,Printer,1543.12,5,0.05,133.97,Credit Card
+263,CA-62333-263,2023-05-16,2023-05-20,Same Day,CU-4117,Priya Shah,Home Office,United States,Los Angeles,California,75212,West,PROD-389,Technology,Accessories,Headphones,1434.98,2,0.05,347.65,UPI
+264,CA-27017-264,2022-09-11,2022-09-18,Second Class,CU-1385,Rahul Sharma,Consumer,United States,Chicago,Illinois,49117,Central,PROD-337,Office Supplies,Appliances,Coffee Maker,2412.15,3,0.0,687.14,Credit Card
+265,CA-98938-265,2022-05-25,2022-05-28,First Class,CU-2859,Amit Patil,Consumer,United States,Dallas,Texas,50358,Central,PROD-872,Furniture,Tables,Wooden Table,653.48,7,0.05,130.89,UPI
+266,CA-74118-266,2023-05-02,2023-02-11,Same Day,CU-2836,Emma Davis,Consumer,United States,Denver,Colorado,11684,West,PROD-467,Technology,Phones,Smartphone,2477.46,8,0.2,491.05,Cash
+267,CA-12364-267,2023-02-07,2023-02-10,First Class,CU-1104,Robert Jackson,Corporate,United States,San Diego,California,60113,West,PROD-204,Technology,Phones,Smartphone,1211.28,2,0.15,206.18,Cash
+268,CA-31489-268,2022-01-26,2022-02-02,Same Day,CU-1852,Robert Jackson,Corporate,United States,Denver,Colorado,86145,West,PROD-228,Office Supplies,Labels,Shipping Labels,521.45,1,0.05,77.06,Credit Card
+269,CA-54282-269,2024-09-18,2024-09-23,Second Class,CU-3641,Robert Jackson,Home Office,United States,Los Angeles,California,32064,West,PROD-568,Office Supplies,Appliances,Coffee Maker,1207.53,5,0.1,54.87,Cash
+270,CA-71130-270,2023-04-18,2023-04-25,First Class,CU-8841,Emma Davis,Consumer,United States,New York City,New York,37282,East,PROD-433,Office Supplies,Appliances, Coffee Maker ,1042.2,4,0.0,69.96,PayPal
+271,CA-20634-271,2024-08-28,2024-08-30,First Class,CU-2576,James Taylor,Home Office,United States,Chicago,Illinois,89727,Central,PROD-708,Furniture,Tables,Conference Table,1138.74,4,0.25,126.32,Credit Card
+272,CA-46655-272,2024-01-04,2024-01-08,Standard Class,CU-6024,  Sarah Wilson  ,Home Office,United States,Miami,Florida,64809,South,PROD-936,Technology,Accessories,Headphones,427.86,4,0.3,71.62,PayPal
+273,CA-56694-273,2025-10-11,2025-10-17,Second Class,CU-4758,robert jackson,Corporate,United States,Los Angeles,California,88799,West,PROD-145,Office Supplies,Paper,Printer Paper,474.34,2,0.3,32.94,Cash
+274,CA-49191-274,2022-10-23,2022-10-29,Same Day,CU-3371,Priya Shah,Consumer,United States,Dallas,Texas,61362,Central,PROD-825,Furniture,Furnishings,Office Furnishing,502.63,2,0.05,90.81,UPI
+275,CA-98889-275,2022-05-30,2022-06-01,First Class,CU-2868,William Martin,Corporate,United States,Phoenix,Arizona,85016,West,PROD-601,Office Supplies,Appliances,Desk Fan,1195.73,7,0.1,192.05,PayPal
+276,CA-57664-276,2023-01-19,2023-01-24,Second Class,CU-3131,Rahul Sharma,Corporate,United States,Denver,Colorado,25694,West,PROD-500,Technology,Machines,Calculator,1622.35,5,0.2,285.44,Cash
+277,CA-50875-277,2022-05-24,2022-05-28,Same Day,CU-3603,Rahul Sharma,Home Office,United States,Dallas,Texas,35224,Central,PROD-973,Office Supplies,Art,Drawing Paper,534.27,2,0.05,28.64,Cash
+278,CA-75382-278,2025-02-26,2025-02-27,Second Class,CU-2840,Priya Shah,Consumer,United States,Columbus,Ohio,82649,East,PROD-195,Furniture,Tables,Wooden Table,453.73,6,0.2,59.01,UPI
+279,CA-72030-279,2025-02-11,2025-11-06,First Class,CU-8992,Emily White,Home Office,United States,Chicago,Illinois,67131,Central,PROD-806,Furniture,Furnishings,Desk Lamp,842.62,7,0.0,221.47,Credit Card
+280,CA-87134-280,2022-01-15,2022-01-18,Same Day,CU-9006,John Smith,Home Office,United States,Los Angeles,California,44724,West,PROD-986,Furniture,Bookcases,Wood Bookcase,2078.72,4,0.2,312.06,Credit Card
+281,CA-57176-281,2022-03-25,2022-03-30,Same Day,CU-6079,Neha Joshi,Consumer,United States,New York City,New York,76373,East,PROD-906,Office Supplies,Storage,Storage Box,755.45,7,0.15,140.47,PayPal
+282,CA-89818-282,2022-08-03,2022-06-08,Second Class,CU-4884,Olivia Moore,Corporate,United States,Houston,Texas,31847,Central,PROD-996,Office Supplies,Labels,Shipping Labels,1234.35,2,0.25,53.23,Cash
+283,CA-49665-283,2024-07-16,2024-07-20,Standard Class,CU-8923,Emma Davis,Consumer,United States,Phoenix,Arizona,77505,West,PROD-991,Technology,Phones,Office Phone,2353.86,5,0.2,391.36,Credit Card
+284,CA-76771-284,2024-09-12,2024-12-16,First Class,CU-2617,David Miller,Consumer,United States,Portland,Oregon,97922,West,PROD-633,Office Supplies,Storage,Storage Box,71.25,2,0.3,9.92,Cash
+285,CA-57339-285,2025-07-15,2025-07-21,First Class,CU-3853,Emma Davis,Consumer,United States,San Diego,California,61170,West,PROD-923,Office Supplies,Storage,Storage Box,698.8,2,0.3,29.03,Cash
+286,CA-55315-286,2025-10-19,2025-10-24,Same Day,CU-3228,John Smith,Home Office,United States,Miami,Florida,47286,South,PROD-163,Furniture,Chairs,Office Chair,304.7,7,0.1,72.06,PayPal
+287,CA-23380-287,2024-10-01,2024-07-10,Second Class,CU-7431,Sarah Wilson,Consumer,United States,Atlanta,Georgia,11148,South,PROD-150,Office Supplies,Paper,Printer Paper,1638.83,4,0.1,305.39,Cash
+288,CA-83257-288,2023-01-11,2023-01-14,First Class,CU-2316,Emma Davis,Consumer,United States,Columbus,Ohio,97777,East,PROD-126,Furniture,Tables,Office Table,1588.31,1,0.0,186.24,Credit Card
+289,CA-27861-289,2023-12-05,2023-12-10,Standard Class,CU-8695,Sophia Thomas,Consumer,United States,Columbus,Ohio,79473,East,PROD-574,Furniture,Chairs,Ergonomic Chair,90.39,5,0.3,3.46,Cash
+290,CA-77862-290,2024-12-04,2024-12-07,First Class,CU-3143,  Daniel Anderson  ,Corporate,United States,Phoenix,Arizona,94685,West,PROD-963,Furniture,Furnishings,Office Furnishing,1448.15,5,0.05,290.89,PayPal
+291,CA-93022-291,2025-09-18,2025-09-23,Second Class,CU-3720,William Martin,Home Office,United States,New York City,New York,49785,East,PROD-121,Office Supplies,Art,Art Pens,1432.23,3,0.15,208.12,PayPal
+292,CA-71127-292,2024-08-09,2024-08-12,Standard Class,CU-2882,Michael Brown,Home Office,United States,Columbus,Ohio,36485,East,PROD-811,Office Supplies,Appliances,Desk Fan,1278.57,6,0.05,313.37,PayPal
+293,CA-66796-293,2024-02-05,2024-02-06,First Class,CU-4040,Amit Patil,Consumer,United States,Seattle,Washington,31724,West,PROD-227,Office Supplies,Binders,Ring Binder,2440.2,3,0.2,474.23,Cash
+294,CA-30568-294,2024-09-23,2024-09-29,First Class,CU-1415,Emily White,Consumer,United States,Phoenix,Arizona,54930,West,PROD-814,Office Supplies,Storage,Storage Box,1253.7,4,0.0,359.47,Cash
+295,CA-77089-295,2025-09-27,2025-10-04,Same Day,CU-3892,Daniel Anderson,Home Office,United States,Los Angeles,California,92881,West,PROD-747,Office Supplies,Storage,File Storage,1368.73,3,0.25,134.61,UPI
+296,CA-47736-296,2022-11-08,2022-08-13,Standard Class,CU-5953,Sarah Wilson,Corporate,United States,Portland,Oregon,74208,West,PROD-447,Office Supplies,Paper,Copy Paper,2148.1,5,0.15,135.12,UPI
+297,CA-13415-297,2025-01-31,2025-02-03,Standard Class,CU-1923,Michael Brown,Corporate,United States,Portland,Oregon,20506,West,PROD-712,Furniture,Chairs,Ergonomic Chair,1170.97,3,0.1,177.32,PayPal
+298,CA-73082-298,2022-01-30,2022-02-01,Second Class,CU-7283,  Daniel Anderson  ,Home Office,United States,Denver,Colorado,44138,West,PROD-839,Technology,Copiers,Color Copier,571.41,1,0.15,134.17,UPI
+299,CA-27926-299,2023-11-19,2023-11-20,First Class,CU-4281,Sarah Wilson,Corporate,United States,Columbus,Ohio,24166,East,PROD-271,Office Supplies,Binders,Ring Binder,959.97,2,0.05,85.78,Cash
+300,CA-91613-300,2024-06-02,2024-06-09,Second Class,CU-4621,John Smith,Home Office,United States,Seattle,Washington,79556,West,PROD-586,Technology,Accessories,Headphones,1524.2,7,0.1,272.95,Credit Card
+301,CA-46929-301,2024-03-11,2024-03-18,Second Class,CU-4993,Amit Patil,Corporate,United States,Detroit,Michigan,27108,Central,PROD-829,Office Supplies,Labels,Address Labels,368.91,6,0.25,40.07,Cash
+302,CA-96286-302,2022-02-24,2022-03-01,Standard Class,CU-8762,Emily White,Consumer,United States,Phoenix,Arizona,19777,West,PROD-873,Technology,Accessories,Mouse,2398.07,4,0.05,194.19,Cash
+303,CA-64673-303,2025-04-01,2025-06-01,Second Class,CU-7923,William Martin,Consumer,United States,Philadelphia,Pennsylvania,24483,East,PROD-156,Office Supplies,Paper,Copy Paper,2261.08,1,0.05,183.92,Cash
+304,CA-47317-304,2022-10-02,2022-10-07,Second Class,CU-6424,Priya Shah,Corporate,United States,Chicago,Illinois,54783,Central,PROD-286,Technology,Accessories,Laptop Stand,1318.64,1,0.15,273.24,Credit Card
+305,CA-74028-305,2024-09-27,2024-09-28,Standard Class,CU-2195,  Amit Patil  ,Corporate,United States,Atlanta,Georgia,61352,South,PROD-734,Office Supplies,Binders,Ring Binder,70.07,1,0.3,13.5,UPI
+306,CA-54185-306,2023-03-31,2023-04-03,Standard Class,CU-9276,sophia thomas,Corporate,United States,Portland,Oregon,20333,West,PROD-443,Furniture,Bookcases,Wood Bookcase,1981.06,7,0.0,170.54,Credit Card
+307,CA-96553-307,2022-11-03,2022-11-06,Standard Class,CU-6551,  Emily White  ,Consumer,United States,Chicago,Illinois,18594,Central,PROD-748,Technology,Machines,Calculator,992.19,1,0.05,228.4,PayPal
+308,CA-99807-308,2025-05-06,2025-05-11,First Class,CU-7460,Neha Joshi,Home Office,United States,Miami,Florida,91959,South,PROD-593,Technology,Phones,Smartphone,1823.13,4,0.1,166.06,UPI
+309,CA-94429-309,2025-03-31,2025-04-06,Second Class,CU-9709,Michael Brown,Home Office,United States,Philadelphia,Pennsylvania,57665,East,PROD-399,Office Supplies,Paper,Printer Paper,2235.39,2,0.2,249.93,UPI
+310,CA-30314-310,2022-05-01,2022-01-08,Standard Class,CU-4920,Neha Joshi,Consumer,United States,Atlanta,Georgia,89941,South,PROD-630,Technology,Copiers,Color Copier,2382.01,8,0.3,283.51,Cash
+311,CA-92409-311,2022-08-31,2022-01-09,Same Day,CU-7814,Robert Jackson,Home Office,United States,Detroit,Michigan,11343,Central,PROD-582,Furniture,Furnishings,Office Furnishing,527.66,3,0.1,61.32,UPI
+312,CA-41473-312,2022-04-29,2022-04-30,First Class,CU-5450,Daniel Anderson,Corporate,United States,Atlanta,Georgia,10646,South,PROD-483,Office Supplies,Art,Art Pens,922.38,2,0.0,157.19,PayPal
+313,CA-54005-313,2023-10-03,2023-03-16,First Class,CU-5011,William Martin,Consumer,United States,Los Angeles,California,40915,West,PROD-869,Technology,Machines,Calculator,704.41,6,0.05,136.58,PayPal
+314,CA-53833-314,2023-09-01,2023-09-05,Same Day,CU-3499,Emma Davis,Home Office,United States,Philadelphia,Pennsylvania,87102,East,PROD-872,Furniture,Tables,Wooden Table,2109.36,4,0.0,108.92,UPI
+315,CA-60727-315,2025-07-10,2025-07-11,Same Day,CU-2171,Emily White,Home Office,United States,Phoenix,Arizona,15417,West,PROD-873,Office Supplies,Appliances,Coffee Maker,2193.12,8,0.3,344.17,PayPal
+316,CA-75806-316,2023-05-06,2023-10-05,Same Day,CU-1957,William Martin,Corporate,United States,Miami,Florida,85815,South,PROD-447,Technology,Accessories,USB Keyboard,1551.06,1,0.0,271.25,Credit Card
+317,CA-95234-317,2022-12-06,2022-06-19,Second Class,CU-5535,  Amit Patil  ,Consumer,United States,Houston,Texas,42257,Central,PROD-256,Furniture,Tables,Office Table,1526.23,2,0.25,116.68,Credit Card
+318,CA-73654-318,2025-05-27,2025-06-03,First Class,CU-8727,Robert Jackson,Home Office,United States,Miami,Florida,67222,South,PROD-580,Furniture,Tables,Office Table,348.5,1,0.1,80.73,UPI
+319,CA-64685-319,2023-08-19,2023-08-21,Standard Class,CU-2844,Daniel Anderson,Corporate,United States,Chicago,Illinois,62544,Central,PROD-546,Technology,Phones,Smartphone,1374.66,2,0.05,145.32,PayPal
+320,CA-18895-320,2025-08-26,2025-08-27,First Class,CU-3711,Priya Shah,Consumer,United States,New York City,New York,29610,East,PROD-819,Furniture,Tables,Conference Table,1739.93,1,0.3,180.38,UPI
+321,CA-77275-321,2023-08-01,2023-08-05,Second Class,CU-6118,james taylor,Home Office,United States,Dallas,Texas,74272,Central,PROD-483,Technology,Accessories,Headphones,1621.06,4,0.1,382.15,Credit Card
+322,CA-51201-322,2024-04-15,2024-04-16,Standard Class,CU-4206,Sarah Wilson,Corporate,United States,Houston,Texas,40591,Central,PROD-888,Furniture,Chairs,Conference Chair,727.63,1,0.0,64.66,Credit Card
+323,CA-98269-323,2024-08-20,2024-08-26,Second Class,CU-6362,Rahul Sharma,Corporate,United States,Phoenix,Arizona,96116,West,PROD-979,Furniture,Chairs,Conference Chair,1665.39,4,0.25,101.14,Cash
+324,CA-20024-324,2024-01-25,2024-01-27,Standard Class,CU-4612,Amit Patil,Home Office,United States,Dallas,Texas,35141,Central,PROD-226,Technology,Machines,Calculator,1220.71,8,0.3,124.25,Credit Card
+325,CA-10810-325,2023-10-25,2023-10-27,Second Class,CU-9584,Emma Davis,Consumer,United States,Chicago,Illinois,98405,Central,PROD-698,Furniture,Tables,Conference Table,1479.87,2,0.3,85.62,Cash
+326,CA-22425-326,2024-03-07,2024-11-03,Standard Class,CU-9123,Amit Patil,Consumer,United States,Miami,Florida,55150,South,PROD-319,Furniture,Furnishings,Desk Lamp,2324.29,5,0.05,237.81,Credit Card
+327,CA-42561-327,2023-05-15,2023-05-16,First Class,CU-9723,Olivia Moore,Home Office,United States,Atlanta,Georgia,56446,South,PROD-233,Office Supplies,Binders,File Binder,2031.36,1,0.0,510.44,Credit Card
+328,CA-48921-328,2024-07-02,2024-07-03,Standard Class,CU-9901,Sophia Thomas,Consumer,United States,Chicago,Illinois,95129,Central,PROD-679,Furniture,Tables,Office Table,2281.77,2,0.25,85.7,Credit Card
+329,CA-43966-329,2025-08-03,2025-08-09,Second Class,CU-3353,Michael Brown,Corporate,United States,Miami,Florida,71196,South,PROD-259,Office Supplies,Storage,Storage Box,1295.61,7,0.3,92.08,PayPal
+330,CA-42480-330,2024-07-30,2024-08-06,Second Class,CU-1610,Daniel Anderson,Consumer,United States,Houston,Texas,75611,Central,PROD-773,Furniture,Tables,Conference Table,1926.51,5,0.0,469.82,UPI
+331,CA-59656-331,2024-12-30,2025-03-01,Same Day,CU-4377,Robert Jackson,Corporate,United States,Seattle,Washington,86675,West,PROD-381,Office Supplies,Storage,File Storage,1640.42,1,0.3,63.08,Cash
+332,CA-77765-332,2023-03-01,2023-03-02,Second Class,CU-3779,  James Taylor  ,Consumer,United States,New York City,New York,34270,East,PROD-176,Technology,Phones,Office Phone,2336.98,2,0.3,312.07,UPI
+333,CA-33179-333,2023-03-12,2023-03-16,Standard Class,CU-8994,Amit Patil,Home Office,United States,Portland,Oregon,17863,West,PROD-402,Furniture,Bookcases,Metal Bookcase,2316.0,2,0.25,440.14,Cash
+334,CA-61749-334,2023-11-12,2023-11-14,Same Day,CU-2213,Emily White,Home Office,United States,Seattle,Washington,89293,West,PROD-566,Office Supplies,Labels,Shipping Labels,763.73,3,0.1,174.17,Credit Card
+335,CA-27677-335,2025-04-06,2025-11-04,Standard Class,CU-8905,Sophia Thomas,Home Office,United States,Chicago,Illinois,86738,Central,PROD-599,Technology,Phones,Smartphone,1762.16,5,0.3,320.94,Credit Card
+336,CA-64719-336,2023-05-14,2023-05-19,First Class,CU-6791,John Smith,Consumer,United States,Portland,Oregon,98566,West,PROD-103,Technology,Phones,Office Phone,179.64,3,0.0,42.11,UPI
+337,CA-19926-337,2023-11-11,2023-11-18,Same Day,CU-1506,Emma Davis,Consumer,United States,Atlanta,Georgia,62157,South,PROD-750,Technology,Machines,Calculator,815.55,2,0.05,94.88,Credit Card
+338,CA-10406-338,2024-03-26,2024-04-01,Standard Class,CU-5556,David Miller,Home Office,United States,Houston,Texas,72652,Central,PROD-570,Office Supplies,Labels,Address Labels,1007.82,7,0.1,116.4,UPI
+339,CA-41869-339,2024-09-27,2024-04-10,First Class,CU-4558,Robert Jackson,Consumer,United States,Miami,Florida,94859,South,PROD-545,Office Supplies,Art,Art Pens,715.95,8,0.2,114.81,Cash
+340,CA-56184-340,2024-08-18,2024-08-25,First Class,CU-9313,Michael Brown,Corporate,United States,Miami,Florida,79393,South,PROD-316,Technology,Phones,Smartphone,1928.26,5,0.1,399.28,UPI
+341,CA-41805-341,2022-10-14,2022-10-16,Standard Class,CU-4396,Amit Patil,Corporate,United States,Chicago,Illinois,37670,Central,PROD-927,Furniture,Tables,Conference Table,1819.88,5,0.15,275.76,UPI
+342,CA-12324-342,2023-04-10,2023-04-13,Second Class,CU-9374,James Taylor,Corporate,United States,Atlanta,Georgia,11489,South,PROD-819,Technology,Phones,Office Phone,573.59,8,0.3,45.21,PayPal
+343,CA-53796-343,2025-05-02,2025-05-08,Second Class,CU-6868,  William Martin  ,Corporate,United States,Seattle,Washington,70947,West,PROD-147,Technology,Copiers,Office Copier,520.75,3,0.05,80.68,UPI
+344,CA-15557-344,2025-04-28,2025-01-05,First Class,CU-1865,Sarah Wilson,Corporate,United States,Detroit,Michigan,56401,Central,PROD-245,Furniture,Furnishings,Desk Lamp,1233.84,4,0.15,266.16,Credit Card
+345,CA-94001-345,2022-05-20,2022-05-22,Second Class,CU-1190,Daniel Anderson,Home Office,United States,Dallas,Texas,59065,Central,PROD-971,Office Supplies,Labels,Shipping Labels,31.99,6,0.0,7.35,PayPal
+346,CA-36189-346,2023-06-06,2023-06-13,Same Day,CU-4390,Rahul Sharma,Home Office,United States,San Diego,California,95260,West,PROD-711,Technology,Machines,Printer,2422.08,3,0.3,211.15,UPI
+347,CA-72948-347,2023-01-23,2023-01-29,First Class,CU-8712,Rahul Sharma,Consumer,United States,Seattle,Washington,37566,West,PROD-596,Technology,Accessories,Mouse,1163.62,1,0.3,107.17,Credit Card
+348,CA-90565-348,2023-07-23,2023-07-26,Standard Class,CU-8846,James Taylor,Consumer,United States,New York City,New York,89695,East,PROD-553,Office Supplies,Labels,Address Labels,1008.14,6,0.15,148.08,UPI
+349,CA-51691-349,2022-05-16,2022-05-23,First Class,CU-3983,Emma Davis,Home Office,United States,Philadelphia,Pennsylvania,56040,East,PROD-811,Office Supplies,Art,Art Pens,1575.7,6,0.0,358.26,UPI
+350,CA-37044-350,2022-09-18,2022-09-20,First Class,CU-4507,Sarah Wilson,Home Office,United States,Dallas,Texas,19734,Central,PROD-690,Furniture,Chairs,Office Chair,911.35,6,0.15,222.48,Cash
+351,CA-83554-351,2022-01-07,2022-01-09,Second Class,CU-7492,robert jackson,Home Office,United States,Denver,Colorado,87588,West,PROD-219,Furniture,Chairs,Conference Chair,825.1,1,0.25,163.01,Credit Card
+352,CA-40389-352,2022-06-21,2022-06-22,Second Class,CU-8708,David Miller,Home Office,United States,Chicago,Illinois,98805,Central,PROD-273,Office Supplies,Art,Drawing Paper,1702.26,8,0.3,120.54,UPI
+353,CA-82031-353,2025-10-25,2025-10-26,First Class,CU-2779,william martin,Consumer,United States,Miami,Florida,59447,South,PROD-299,Furniture,Bookcases,Metal Bookcase,2415.42,1,0.15,542.72,Credit Card
+354,CA-24230-354,2024-04-20,2024-04-26,Second Class,CU-9675,michael brown,Corporate,United States,Chicago,Illinois,46929,Central,PROD-123,Furniture,Tables, Conference Table ,2303.73,8,0.15,371.76,PayPal
+355,CA-17352-355,2023-01-03,2023-10-01,Second Class,CU-5015,Robert Jackson,Consumer,United States,Atlanta,Georgia,18428,South,PROD-798,Technology,Machines,Printer,228.78,7,0.25,31.85,UPI
+356,CA-81598-356,2024-03-11,2024-03-14,Same Day,CU-3994,Rahul Sharma,Home Office,United States,Houston,Texas,47131,Central,PROD-276,Office Supplies,Binders,Ring Binder,1439.97,1,0.25,234.08,Credit Card
+357,CA-63502-357,2022-04-17,2022-04-23,Same Day,CU-2275,James Taylor,Corporate,United States,Seattle,Washington,96780,West,PROD-811,Furniture,Furnishings,Office Furnishing,901.07,4,0.2,205.63,Credit Card
+358,CA-53952-358,2025-08-12,2025-08-13,Same Day,CU-5172,emily white,Consumer,United States,Chicago,Illinois,43850,Central,PROD-176,Technology,Accessories,Laptop Stand,854.28,2,0.25,122.72,UPI
+359,CA-74842-359,2022-07-28,2022-07-30,Standard Class,CU-7491,Rahul Sharma,Corporate,United States,Miami,Florida,73203,South,PROD-857,Office Supplies,Labels,Address Labels,400.02,2,0.1,45.68,PayPal
+360,CA-87195-360,2022-05-02,2022-05-08,Same Day,CU-3364,Robert Jackson,Home Office,United States,Seattle,Washington,24506,West,PROD-727,Office Supplies,Binders,Ring Binder,1853.14,3,0.05,371.76,Credit Card
+361,CA-43383-361,2022-03-22,2022-03-29,First Class,CU-2731,James Taylor,Consumer,United States,New York City,New York,20700,East,PROD-850,Office Supplies,Labels,Address Labels,755.81,6,0.25,54.57,PayPal
+362,CA-55883-362,2024-04-13,2024-04-17,Same Day,CU-1710,David Miller,Home Office,United States,Chicago,Illinois,31148,Central,PROD-861,Furniture,Bookcases,Metal Bookcase,1837.98,8,0.0,310.55,Cash
+363,CA-99555-363,2025-04-01,2025-04-02,Same Day,CU-2686,William Martin,Home Office,United States,Denver,Colorado,53342,West,PROD-702,Technology,Accessories,Laptop Stand,1680.54,3,0.25,349.06,PayPal
+364,CA-21073-364,2022-11-01,2022-01-12,Second Class,CU-5283,Emily White,Home Office,United States,Houston,Texas,48547,Central,PROD-484,Office Supplies,Appliances,Coffee Maker,2236.4,4,0.2,524.94,Cash
+365,CA-68734-365,2024-06-09,2024-06-10,First Class,CU-6798,Rahul Sharma,Home Office,United States,Phoenix,Arizona,27597,West,PROD-574,Technology,Accessories,Mouse,1800.47,8,0.2,386.66,PayPal
+366,CA-67848-366,2025-04-29,2025-03-05,First Class,CU-7368,John Smith,Corporate,United States,Philadelphia,Pennsylvania,15672,East,PROD-993,Office Supplies,Storage,Storage Box,1798.86,3,0.1,397.08,Cash
+367,CA-12559-367,2025-05-19,2025-05-26,Standard Class,CU-8014,John Smith,Corporate,United States,Seattle,Washington,21975,West,PROD-251,Technology,Copiers,Color Copier,2030.74,3,0.3,93.73,PayPal
+368,CA-91872-368,2022-01-07,2022-01-12,Standard Class,CU-6720,William Martin,Corporate,United States,Atlanta,Georgia,77160,South,PROD-845,Technology,Phones,Smartphone,1815.57,2,0.0,477.19,Credit Card
+369,CA-43569-369,2025-10-24,2025-10-26,Standard Class,CU-5302,John Smith,Home Office,United States,Seattle,Washington,48260,West,PROD-666,Technology,Phones,Office Phone,1632.16,6,0.1,212.33,PayPal
+370,CA-99095-370,2025-11-01,2025-08-11,Same Day,CU-6171,Amit Patil,Consumer,United States,Portland,Oregon,58596,West,PROD-428,Furniture,Furnishings,Office Furnishing,1937.68,7,0.3,245.27,Cash
+371,CA-20299-371,2023-12-22,2023-12-26,Second Class,CU-8469,David Miller,Home Office,United States,Los Angeles,California,86977,West,PROD-375,Office Supplies,Binders,File Binder,1369.45,2,0.25,109.23,Cash
+372,CA-49163-372,2023-11-18,2023-11-19,Second Class,CU-9345,Daniel Anderson,Consumer,United States,Portland,Oregon,43101,West,PROD-674,Furniture,Bookcases,Metal Bookcase,2327.03,6,0.15,131.55,PayPal
+373,CA-74783-373,2023-08-10,2023-08-14,Standard Class,CU-6423,John Smith,Home Office,United States,Columbus,Ohio,42866,East,PROD-610,Furniture,Chairs,Office Chair,253.4,8,0.0,47.5,Cash
+374,CA-23203-374,2022-08-10,2022-10-11,Standard Class,CU-7726,Michael Brown,Corporate,United States,Los Angeles,California,44984,West,PROD-228,Technology,Phones,Office Phone,952.27,5,0.25,192.21,Cash
+375,CA-82443-375,2024-12-01,2024-01-13,Second Class,CU-2044,James Taylor,Corporate,United States,Chicago,Illinois,49819,Central,PROD-775,Office Supplies,Storage, Storage Box ,1842.27,2,0.2,177.36,UPI
+376,CA-21263-376,2023-10-15,2023-10-16,Standard Class,CU-2632,Priya Shah,Home Office,United States,Detroit,Michigan,73423,Central,PROD-638,Office Supplies,Paper,Printer Paper,2158.96,5,0.05,397.98,PayPal
+377,CA-82702-377,2023-10-16,2023-10-20,Same Day,CU-8416,Amit Patil,Home Office,United States,Phoenix,Arizona,79243,West,PROD-232,Technology,Machines,Calculator,608.39,8,0.0,34.66,Credit Card
+378,CA-60977-378,2025-06-05,2025-06-10,Same Day,CU-7619,Emily White,Corporate,United States,San Diego,California,57404,West,PROD-542,Technology,Machines,Printer,1545.15,5,0.15,99.71,Cash
+379,CA-64940-379,2025-11-10,2025-11-15,Standard Class,CU-1088,Emily White,Corporate,United States,Columbus,Ohio,86991,East,PROD-700,Office Supplies,Art,Drawing Paper,1844.15,5,0.05,399.17,Credit Card
+380,CA-94780-380,2024-11-16,2024-11-22,Standard Class,CU-4173,David Miller,Consumer,United States,Phoenix,Arizona,56427,West,PROD-824,Office Supplies,Labels,Address Labels,2175.45,6,0.3,362.25,UPI
+381,CA-18865-381,2024-07-20,2024-07-22,Second Class,CU-3993,Olivia Moore,Home Office,United States,New York City,New York,44934,East,PROD-311,Office Supplies,Paper,Copy Paper,65.89,3,0.0,7.32,Credit Card
+382,CA-92676-382,2025-06-27,2025-06-30,First Class,CU-5165,William Martin,Home Office,United States,Los Angeles,California,71874,West,PROD-959,Office Supplies,Binders,File Binder,2416.52,2,0.25,452.0,Credit Card
+383,CA-18179-383,2024-11-25,2024-12-01,First Class,CU-2360,Emma Davis,Consumer,United States,Miami,Florida,41085,South,PROD-104,Office Supplies,Appliances,Desk Fan,1039.3,1,0.3,84.1,UPI
+384,CA-51000-384,2024-06-30,2024-01-07,Same Day,CU-6133,Daniel Anderson,Corporate,United States,Houston,Texas,16936,Central,PROD-251,Technology,Copiers,Office Copier,691.38,8,0.2,46.37,PayPal
+385,CA-26987-385,2023-10-22,2023-10-25,Same Day,CU-7743,William Martin,Home Office,United States,Columbus,Ohio,56089,East,PROD-190,Furniture,Furnishings,Office Furnishing,2421.33,8,0.15,250.44,UPI
+386,CA-44887-386,2024-12-16,2024-12-21,Same Day,CU-8997,David Miller,Consumer,United States,Seattle,Washington,11059,West,PROD-433,Furniture,Chairs,Conference Chair,645.55,2,0.0,84.61,Cash
+387,CA-12071-387,2022-11-24,2022-11-26,First Class,CU-1389,Priya Shah,Corporate,United States,Dallas,Texas,40981,Central,PROD-972,Technology,Machines,Printer,2433.15,7,0.25,536.2,PayPal
+388,CA-59003-388,2024-06-09,2024-12-06,Same Day,CU-1124,Michael Brown,Home Office,United States,Miami,Florida,92300,South,PROD-696,Technology,Phones,Office Phone,699.3,1,0.1,110.41,Credit Card
+389,CA-23911-389,2025-10-17,2025-10-23,First Class,CU-1237,Olivia Moore,Consumer,United States,New York City,New York,23397,East,PROD-113,Furniture,Bookcases,Metal Bookcase,2176.56,4,0.25,396.53,PayPal
+390,CA-75115-390,2024-09-19,2024-09-25,Same Day,CU-8512,James Taylor,Home Office,United States,Los Angeles,California,17852,West,PROD-160,Furniture,Furnishings,Desk Lamp,2446.91,1,0.15,470.16,UPI
+391,CA-23243-391,2023-06-23,2023-06-25,First Class,CU-4996,Daniel Anderson,Home Office,United States,New York City,New York,85150,East,PROD-695,Technology,Copiers,Color Copier,2143.08,8,0.0,291.58,Cash
+392,CA-87980-392,2022-03-23,2022-03-25,Standard Class,CU-7863,Sarah Wilson,Consumer,United States,New York City,New York,76477,East,PROD-926,Office Supplies,Labels,Shipping Labels,732.24,4,0.3,51.54,Cash
+393,CA-57792-393,2025-07-03,2025-03-13,Same Day,CU-6612,Emily White,Corporate,United States,Dallas,Texas,68524,Central,PROD-963,Technology,Copiers,Office Copier,211.37,7,0.0,58.94,PayPal
+394,CA-77488-394,2024-11-27,2024-11-28,Second Class,CU-5432,David Miller,Home Office,United States,Phoenix,Arizona,27021,West,PROD-432,Furniture,Tables,Office Table,349.23,3,0.1,63.65,Credit Card
+395,CA-40195-395,2022-04-20,2022-04-22,Standard Class,CU-4130,Robert Jackson,Corporate,United States,San Diego,California,10303,West,PROD-217,Technology,Accessories,Headphones,1222.89,7,0.1,59.21,Cash
+396,CA-57650-396,2022-02-17,2022-02-22,First Class,CU-2245,Rahul Sharma,Corporate,United States,Los Angeles,California,20501,West,PROD-631,Furniture,Bookcases,Wood Bookcase,1115.19,7,0.05,272.39,UPI
+397,CA-42246-397,2024-06-12,2024-06-17,Second Class,CU-1601,Sophia Thomas,Home Office,United States,New York City,New York,16876,East,PROD-915,Furniture,Chairs,Ergonomic Chair,1103.1,5,0.1,203.01,Credit Card
+398,CA-39052-398,2024-09-08,2024-10-09,Second Class,CU-8994,Sarah Wilson,Consumer,United States,Columbus,Ohio,52870,East,PROD-329,Furniture,Chairs,Office Chair,471.8,5,0.05,53.12,PayPal
+399,CA-65499-399,2025-07-16,2025-07-20,Same Day,CU-6347,rahul sharma,Corporate,United States,San Diego,California,36352,West,PROD-368,Technology,Accessories,Laptop Stand,885.68,4,0.05,207.08,Credit Card
+400,CA-96101-400,2022-09-03,2022-08-09,Second Class,CU-3433,Amit Patil,Corporate,United States,Denver,Colorado,19691,West,PROD-898,Technology,Copiers,Office Copier,1615.7,6,0.0,149.14,PayPal
+401,CA-14397-401,2022-02-21,2022-02-23,Same Day,CU-7523,Sarah Wilson,Home Office,United States,Seattle,Washington,42798,West,PROD-979,Office Supplies,Appliances,Desk Fan,1316.3,4,0.15,286.24,UPI
+402,CA-38918-402,2023-06-22,2023-06-27,Standard Class,CU-3681,Amit Patil,Corporate,United States,Miami,Florida,25250,South,PROD-412,Technology,Phones,Smartphone,1722.3,5,0.05,311.2,UPI
+403,CA-83710-403,2023-06-05,2023-06-11,First Class,CU-7282,Rahul Sharma,Home Office,United States,Philadelphia,Pennsylvania,88491,East,PROD-822,Office Supplies,Binders,File Binder,2398.55,7,0.05,245.01,PayPal
+404,CA-47646-404,2023-05-07,2023-05-13,Second Class,CU-6401,Sarah Wilson,Home Office,United States,Philadelphia,Pennsylvania,66292,East,PROD-602,Office Supplies,Storage,Storage Box,2341.99,7,0.2,352.6,UPI
+405,CA-86560-405,2023-08-26,2023-08-30,Same Day,CU-6340,Michael Brown,Corporate,United States,Los Angeles,California,41647,West,PROD-386,Technology,Machines,Calculator,1221.9,2,0.0,73.93,Credit Card
+406,CA-23410-406,2024-10-05,2024-10-09,Same Day,CU-8781,Michael Brown,Home Office,United States,Philadelphia,Pennsylvania,29588,East,PROD-588,Office Supplies,Paper,Printer Paper,2005.44,7,0.2,404.45,PayPal
+407,CA-56587-407,2022-04-12,2022-04-16,Second Class,CU-8393,Robert Jackson,Corporate,United States,Denver,Colorado,27935,West,PROD-666,Office Supplies,Appliances,Desk Fan,2101.02,6,0.25,166.62,PayPal
+408,CA-31562-408,2025-07-30,2025-08-05,First Class,CU-1071,William Martin,Home Office,United States,Dallas,Texas,20554,Central,PROD-304,Furniture,Tables,Office Table,1515.21,3,0.05,154.02,PayPal
+409,CA-76922-409,2023-06-28,2023-07-01,First Class,CU-1481,Olivia Moore,Consumer,United States,Houston,Texas,25275,Central,PROD-212,Furniture,Furnishings,Desk Lamp,441.08,7,0.15,57.32,Credit Card
+410,CA-73198-410,2025-08-30,2025-09-02,Same Day,CU-9592,Robert Jackson,Corporate,United States,Houston,Texas,12273,Central,PROD-661,Office Supplies,Binders,Ring Binder,864.4,8,0.1,139.18,PayPal
+411,CA-80820-411,2022-02-12,2022-02-17,Second Class,CU-7450,Sarah Wilson,Consumer,United States,Phoenix,Arizona,21943,West,PROD-420,Technology,Accessories,Mouse,35.85,3,0.3,3.96,Cash
+412,CA-78608-412,2025-01-11,2025-01-14,First Class,CU-5843,John Smith,Corporate,United States,Portland,Oregon,85614,West,PROD-140,Technology,Copiers,Office Copier,2476.96,8,0.05,373.21,PayPal
+413,CA-68012-413,2022-10-16,2022-10-19,First Class,CU-2032,Rahul Sharma,Corporate,United States,San Diego,California,34755,West,PROD-540,Technology,Phones,Smartphone,1409.22,3,0.0,235.08,UPI
+414,CA-98680-414,2025-06-16,2025-06-23,Standard Class,CU-8213,David Miller,Consumer,United States,Chicago,Illinois,34773,Central,PROD-952,Technology,Copiers,Office Copier,2026.16,4,0.1,485.8,UPI
+415,CA-89638-415,2022-04-22,2022-04-28,First Class,CU-2546,Amit Patil,Consumer,United States,Dallas,Texas,46326,Central,PROD-585,Furniture,Chairs,Office Chair,1501.07,3,0.3,189.87,UPI
+416,CA-95035-416,2025-12-10,2025-12-17,Same Day,CU-2672,Amit Patil,Home Office,United States,San Diego,California,55680,West,PROD-654,Technology,Accessories,USB Keyboard,35.86,8,0.1,6.86,Credit Card
+417,CA-48485-417,2024-02-01,2024-01-04,Same Day,CU-2738,Emma Davis,Consumer,United States,Chicago,Illinois,99645,Central,PROD-802,Technology,Phones,Smartphone,1887.81,5,0.0,565.88,Credit Card
+418,CA-23872-418,2022-12-13,2022-12-19,Second Class,CU-1730,David Miller,Home Office,United States,Detroit,Michigan,71289,Central,PROD-769,Furniture,Bookcases,Wood Bookcase,2428.09,8,0.25,94.16,Cash
+419,CA-96434-419,2024-05-26,2024-05-27,Standard Class,CU-2790,Priya Shah,Consumer,United States,Phoenix,Arizona,98888,West,PROD-688,Office Supplies,Storage,File Storage,2014.3,6,0.1,434.15,UPI
+420,CA-37065-420,2024-09-06,2024-09-10,Second Class,CU-8702,Amit Patil,Corporate,United States,Atlanta,Georgia,28492,South,PROD-888,Technology,Copiers,Office Copier,826.27,7,0.0,214.48,Cash
+421,CA-19544-421,2022-03-21,2022-03-22,First Class,CU-9487,Daniel Anderson,Consumer,United States,Philadelphia,Pennsylvania,25766,East,PROD-896,Office Supplies,Appliances,Coffee Maker,1893.38,8,0.3,98.77,PayPal
+422,CA-65361-422,2022-10-28,2022-11-01,First Class,CU-7179,James Taylor,Corporate,United States,Denver,Colorado,60949,West,PROD-476,Furniture,Furnishings,Desk Lamp,1449.49,3,0.15,364.26,UPI
+423,CA-82099-423,2024-11-19,2024-11-25,Second Class,CU-3308,John Smith,Corporate,United States,Seattle,Washington,88819,West,PROD-664,Technology,Machines,Printer,874.2,8,0.3,155.01,Cash
+424,CA-87408-424,2023-12-15,2023-12-19,Second Class,CU-4535,Sarah Wilson,Consumer,United States,Columbus,Ohio,85636,East,PROD-258,Furniture,Chairs, Office Chair ,1218.11,8,0.05,296.18,PayPal
+425,CA-86131-425,2024-07-26,2024-07-30,Second Class,CU-2471,Neha Joshi,Consumer,United States,Los Angeles,California,87161,West,PROD-227,Technology,Machines,Calculator,568.03,5,0.0,39.89,UPI
+426,CA-47969-426,2024-10-16,2024-10-18,First Class,CU-5348,Neha Joshi,Consumer,United States,Houston,Texas,40106,Central,PROD-788,Furniture,Tables,Wooden Table,57.49,1,0.3,10.67,PayPal
+427,CA-35521-427,2022-03-14,2022-03-17,Second Class,CU-6305,Emily White,Consumer,United States,Phoenix,Arizona,97465,West,PROD-895,Technology,Copiers,Office Copier,622.93,1,0.25,69.92,Credit Card
+428,CA-75142-428,2023-10-14,2023-10-20,First Class,CU-8659,John Smith,Corporate,United States,Detroit,Michigan,10339,Central,PROD-998,Furniture,Tables,Wooden Table,490.93,2,0.3,44.74,UPI
+429,CA-95379-429,2022-07-23,2022-07-27,Second Class,CU-9615,Neha Joshi,Corporate,United States,Chicago,Illinois,19859,Central,PROD-649,Technology,Phones,Office Phone,672.78,3,0.15,103.59,Credit Card
+430,CA-50953-430,2025-11-07,2025-11-14,First Class,CU-7746,Olivia Moore,Corporate,United States,Los Angeles,California,77824,West,PROD-419,Office Supplies,Art,Drawing Paper,421.82,1,0.25,38.04,Credit Card
+431,CA-71681-431,2025-03-26,2025-02-04,Same Day,CU-6260,Emily White,Corporate,United States,Portland,Oregon,81262,West,PROD-453,Furniture,Furnishings,Desk Lamp,1113.39,5,0.05,186.75,Credit Card
+432,CA-33594-432,2025-11-05,2025-11-11,Second Class,CU-1526,Neha Joshi,Corporate,United States,Phoenix,Arizona,69210,West,PROD-610,Furniture,Chairs,Office Chair,605.04,5,0.2,62.67,UPI
+433,CA-44638-433,2025-12-02,2025-09-12,Second Class,CU-6357,John Smith,Home Office,United States,Detroit,Michigan,48671,Central,PROD-811,Office Supplies,Art,Drawing Paper,2194.68,8,0.05,445.57,UPI
+434,CA-72775-434,2025-07-02,2025-07-04,First Class,CU-4344,James Taylor,Corporate,United States,Chicago,Illinois,68972,Central,PROD-430,Furniture,Chairs,Conference Chair,536.94,8,0.05,116.69,PayPal
+435,CA-34764-435,2022-08-29,2022-09-03,Second Class,CU-1139,Daniel Anderson,Home Office,United States,Houston,Texas,60825,Central,PROD-987,Furniture,Chairs,Conference Chair,2396.5,7,0.0,426.92,UPI
+436,CA-89797-436,2024-04-03,2024-04-06,Second Class,CU-9654,Rahul Sharma,Home Office,United States,Seattle,Washington,92132,West,PROD-145,Furniture,Bookcases,Metal Bookcase,1193.55,5,0.15,252.71,PayPal
+437,CA-37616-437,2023-12-09,2023-12-11,Standard Class,CU-2641,Rahul Sharma,Home Office,United States,Atlanta,Georgia,99477,South,PROD-312,Furniture,Bookcases,Metal Bookcase,1426.95,7,0.25,65.5,Cash
+438,CA-15830-438,2022-06-24,2022-06-25,First Class,CU-5609,William Martin,Home Office,United States,Houston,Texas,21510,Central,PROD-697,Office Supplies,Appliances,Coffee Maker,2244.15,2,0.1,421.36,Cash
+439,CA-82542-439,2022-12-14,2022-12-18,Standard Class,CU-8435,Robert Jackson,Consumer,United States,Phoenix,Arizona,36774,West,PROD-680,Office Supplies,Appliances,Desk Fan,2341.86,1,0.15,416.1,UPI
+440,CA-52372-440,2022-05-30,2022-06-06,Standard Class,CU-8895,David Miller,Corporate,United States,Portland,Oregon,91581,West,PROD-605,Technology,Copiers,Office Copier,1288.02,5,0.0,212.07,Cash
+441,CA-22594-441,2022-12-01,2022-12-05,Second Class,CU-8132,Neha Joshi,Home Office,United States,Miami,Florida,42844,South,PROD-209,Technology,Accessories,Headphones,1033.22,3,0.25,108.67,UPI
+442,CA-71314-442,2022-02-23,2022-01-03,First Class,CU-4852,William Martin,Consumer,United States,Seattle,Washington,15083,West,PROD-908,Office Supplies,Binders,File Binder,987.01,3,0.3,197.64,UPI
+443,CA-74755-443,2023-02-09,2023-02-15,First Class,CU-4047,Daniel Anderson,Corporate,United States,New York City,New York,44442,East,PROD-288,Office Supplies,Binders,File Binder,240.75,3,0.25,20.65,UPI
+444,CA-70188-444,2022-07-20,2022-07-25,First Class,CU-7912,Michael Brown,Corporate,United States,Denver,Colorado,78823,West,PROD-609,Furniture,Bookcases,Wood Bookcase,2294.87,5,0.1,570.19,Credit Card
+445,CA-63100-445,2025-07-17,2025-07-23,Second Class,CU-7669,Sarah Wilson,Home Office,United States,Los Angeles,California,94986,West,PROD-706,Technology,Copiers,Color Copier,1316.61,8,0.3,267.59,Cash
+446,CA-93821-446,2023-09-18,2023-09-24,Same Day,CU-6574,Olivia Moore,Corporate,United States,Denver,Colorado,68668,West,PROD-352,Furniture,Bookcases,Wood Bookcase,28.26,7,0.15,6.71,Cash
+447,CA-15915-447,2022-04-26,2022-05-03,Same Day,CU-8777,Sophia Thomas,Home Office,United States,New York City,New York,36381,East,PROD-451,Technology,Accessories,Headphones,597.74,4,0.1,37.79,Credit Card
+448,CA-91220-448,2024-03-29,2024-05-04,First Class,CU-3976,William Martin,Corporate,United States,Seattle,Washington,25872,West,PROD-929,Office Supplies,Labels,Shipping Labels,685.69,5,0.0,80.0,PayPal
+449,CA-47837-449,2023-09-10,2023-09-17,Standard Class,CU-2996,Olivia Moore,Home Office,United States,Los Angeles,California,64939,West,PROD-105,Office Supplies,Art,Art Pens,891.67,5,0.1,180.02,PayPal
+450,CA-54080-450,2023-01-22,2023-01-28,Same Day,CU-4527,Sarah Wilson,Consumer,United States,Los Angeles,California,56752,West,PROD-849,Furniture,Furnishings,Desk Lamp,756.42,7,0.25,51.07,PayPal
+451,CA-82291-451,2025-01-28,2025-02-02,Same Day,CU-1587,Robert Jackson,Consumer,United States,Detroit,Michigan,19317,Central,PROD-356,Office Supplies,Appliances, Coffee Maker ,2102.75,3,0.0,356.07,Credit Card
+452,CA-46246-452,2025-05-01,2025-05-02,Same Day,CU-3682,  Emily White  ,Home Office,United States,Portland,Oregon,46283,West,PROD-743,Furniture,Tables,Conference Table,1197.17,1,0.1,77.16,PayPal
+453,CA-97099-453,2024-12-20,2024-12-26,Second Class,CU-9376,Olivia Moore,Corporate,United States,Houston,Texas,84521,Central,PROD-911,Office Supplies,Art,Drawing Paper,1691.17,8,0.15,277.44,PayPal
+454,CA-37770-454,2022-07-10,2022-07-11,Same Day,CU-8034,Daniel Anderson,Home Office,United States,Chicago,Illinois,86552,Central,PROD-889,Furniture,Chairs,Office Chair,1855.46,1,0.3,195.66,Cash
+455,CA-33584-455,2022-07-28,2022-07-30,Same Day,CU-7964,Olivia Moore,Home Office,United States,San Diego,California,72276,West,PROD-161,Office Supplies,Paper, Printer Paper ,270.47,2,0.05,47.12,PayPal
+456,CA-81019-456,2023-10-29,2023-11-01,First Class,CU-2830,Robert Jackson,Home Office,United States,Los Angeles,California,48348,West,PROD-215,Office Supplies,Binders,File Binder,1612.82,1,0.1,390.58,Cash
+457,CA-94468-457,2025-06-27,2025-07-02,Standard Class,CU-2936,Rahul Sharma,Corporate,United States,Los Angeles,California,12609,West,PROD-715,Technology,Copiers,Office Copier,421.86,6,0.2,76.44,PayPal
+458,CA-26282-458,2023-01-27,2023-01-29,Second Class,CU-9822,Neha Joshi,Consumer,United States,Miami,Florida,30252,South,PROD-729,Technology,Accessories,Headphones,1619.88,5,0.05,157.62,PayPal
+459,CA-27219-459,2025-06-25,2025-06-29,First Class,CU-2444,  Sophia Thomas  ,Corporate,United States,Dallas,Texas,93198,Central,PROD-551,Technology,Copiers,Color Copier,991.82,1,0.2,236.78,Credit Card
+460,CA-60495-460,2022-05-17,2022-05-23,Standard Class,CU-3013,Emily White,Home Office,United States,Detroit,Michigan,99074,Central,PROD-881,Office Supplies,Paper,Copy Paper,1850.21,8,0.0,371.62,PayPal
+461,CA-56332-461,2023-11-11,2023-11-15,Standard Class,CU-9989,Amit Patil,Corporate,United States,New York City,New York,35839,East,PROD-592,Office Supplies,Binders,Ring Binder,997.52,8,0.0,122.39,Credit Card
+462,CA-27678-462,2022-10-22,2022-10-23,Standard Class,CU-4529,Emily White,Corporate,United States,Columbus,Ohio,47049,East,PROD-437,Office Supplies,Art,Drawing Paper,2100.18,8,0.3,391.44,Credit Card
+463,CA-21849-463,2024-03-21,2024-03-27,Same Day,CU-8617,William Martin,Home Office,United States,Philadelphia,Pennsylvania,67514,East,PROD-203,Technology,Machines,Calculator,1850.8,5,0.15,392.37,Cash
+464,CA-95692-464,2025-09-22,2025-09-23,Same Day,CU-4563,Neha Joshi,Corporate,United States,Philadelphia,Pennsylvania,41274,East,PROD-396,Technology,Accessories,USB Keyboard,2209.08,1,0.05,338.71,UPI
+465,CA-15087-465,2025-03-04,2025-03-10,Same Day,CU-8747,Rahul Sharma,Consumer,United States,Chicago,Illinois,64080,Central,PROD-309,Technology,Machines,Printer,200.33,2,0.25,35.08,PayPal
+466,CA-51653-466,2022-07-04,2022-07-05,Second Class,CU-4764,James Taylor,Home Office,United States,Dallas,Texas,18500,Central,PROD-601,Technology,Phones,Office Phone,55.26,1,0.25,2.54,UPI
+467,CA-92097-467,2025-01-18,2025-01-21,Second Class,CU-9849,Emma Davis,Consumer,United States,Miami,Florida,56632,South,PROD-453,Technology,Phones,Office Phone,514.78,3,0.0,144.53,Credit Card
+468,CA-44200-468,2024-12-24,2024-12-30,First Class,CU-1904,Emily White,Corporate,United States,Miami,Florida,72864,South,PROD-965,Office Supplies,Appliances,Desk Fan,444.53,2,0.2,76.14,Credit Card
+469,CA-50277-469,2023-03-28,2023-04-03,Standard Class,CU-8171,William Martin,Corporate,United States,New York City,New York,20458,East,PROD-928,Office Supplies,Labels,Address Labels,1672.44,7,0.15,283.61,UPI
+470,CA-85622-470,2024-12-17,2024-12-24,First Class,CU-9239,Robert Jackson,Corporate,United States,Philadelphia,Pennsylvania,43477,East,PROD-325,Furniture,Chairs,Conference Chair,2037.88,3,0.3,191.31,PayPal
+471,CA-71940-471,2022-08-24,2022-08-25,First Class,CU-2099,Priya Shah,Home Office,United States,Denver,Colorado,22734,West,PROD-116,Office Supplies,Art,Art Pens,2246.98,4,0.0,275.6,Cash
+472,CA-15007-472,2022-11-30,2022-12-02,Second Class,CU-3237,John Smith,Corporate,United States,Detroit,Michigan,34956,Central,PROD-837,Office Supplies,Storage,Storage Box,1023.64,7,0.05,88.63,UPI
+473,CA-78169-473,2024-10-09,2024-10-14,Standard Class,CU-9288,Michael Brown,Corporate,United States,Phoenix,Arizona,91191,West,PROD-826,Technology,Accessories,USB Keyboard,1801.87,8,0.2,78.89,Cash
+474,CA-79967-474,2024-07-07,2024-07-13,Same Day,CU-9909,sophia thomas,Home Office,United States,Columbus,Ohio,39310,East,PROD-118,Furniture,Tables,Conference Table,1413.4,5,0.1,367.17,PayPal
+475,CA-46734-475,2022-12-27,2022-12-28,Standard Class,CU-9881,Sophia Thomas,Home Office,United States,Dallas,Texas,31811,Central,PROD-119,Office Supplies,Binders,Ring Binder,983.85,3,0.3,132.43,Cash
+476,CA-33976-476,2024-08-05,2024-08-10,Standard Class,CU-1352,Olivia Moore,Consumer,United States,Philadelphia,Pennsylvania,13087,East,PROD-910,Furniture,Bookcases,Wood Bookcase,2344.46,5,0.1,465.46,UPI
+477,CA-64026-477,2025-02-26,2025-03-05,First Class,CU-6711,Daniel Anderson,Consumer,United States,Chicago,Illinois,60918,Central,PROD-334,Office Supplies,Binders,File Binder,788.93,2,0.0,214.22,UPI
+478,CA-98324-478,2024-04-30,2024-05-03,Standard Class,CU-3971,  Sarah Wilson  ,Corporate,United States,Los Angeles,California,18705,West,PROD-522,Office Supplies,Storage,Storage Box,368.78,6,0.3,64.43,PayPal
+479,CA-66550-479,2023-09-02,2023-09-03,Same Day,CU-5104,Daniel Anderson,Corporate,United States,Portland,Oregon,60699,West,PROD-654,Technology,Machines, Printer ,1847.78,7,0.2,143.71,Credit Card
+480,CA-36682-480,2022-01-13,2022-01-20,Standard Class,CU-4087,Priya Shah,Home Office,United States,Columbus,Ohio,22000,East,PROD-350,Technology,Copiers,Office Copier,2026.71,7,0.15,507.0,Credit Card
+481,CA-23075-481,2024-12-29,2025-01-05,Standard Class,CU-7942,Robert Jackson,Consumer,United States,Seattle,Washington,21319,West,PROD-851,Technology,Copiers,Color Copier,525.95,3,0.15,79.31,Cash
+482,CA-33779-482,2022-03-12,2022-03-19,Same Day,CU-6196,Rahul Sharma,Consumer,United States,Phoenix,Arizona,16746,West,PROD-445,Technology,Phones,Office Phone,2489.98,3,0.25,454.99,Credit Card
+483,CA-77195-483,2023-02-22,2023-02-28,Second Class,CU-8577,Amit Patil,Consumer,United States,Columbus,Ohio,18923,East,PROD-148,Office Supplies,Binders,Ring Binder,1651.65,4,0.3,254.55,PayPal
+484,CA-97732-484,2023-11-27,2023-11-30,Same Day,CU-7229,Priya Shah,Home Office,United States,Denver,Colorado,45512,West,PROD-140,Office Supplies,Labels,Address Labels,1051.4,6,0.15,119.66,Cash
+485,CA-63994-485,2022-07-01,2022-07-07,Same Day,CU-2961,Emily White,Home Office,United States,Detroit,Michigan,23362,Central,PROD-813,Technology,Phones,Smartphone,1144.22,2,0.2,206.02,Cash
+486,CA-80899-486,2022-05-28,2022-05-31,Standard Class,CU-4348,Sarah Wilson,Corporate,United States,Denver,Colorado,82090,West,PROD-499,Office Supplies,Art,Drawing Paper,701.24,2,0.1,169.93,PayPal
+487,CA-73216-487,2024-07-19,2024-07-24,First Class,CU-9748,priya shah,Corporate,United States,Denver,Colorado,59767,West,PROD-242,Furniture,Tables,Conference Table,955.14,6,0.1,61.98,UPI
+488,CA-39478-488,2025-01-08,2025-01-09,First Class,CU-1350,Rahul Sharma,Corporate,United States,Los Angeles,California,11153,West,PROD-614,Office Supplies,Labels,Address Labels,654.42,5,0.0,180.3,PayPal
+489,CA-76296-489,2025-10-16,2025-10-23,Standard Class,CU-8867,Emily White,Consumer,United States,New York City,New York,69271,East,PROD-615,Office Supplies,Appliances,Desk Fan,1701.84,1,0.1,340.72,Credit Card
+490,CA-61649-490,2023-05-25,2023-05-30,Same Day,CU-7007,Olivia Moore,Consumer,United States,Denver,Colorado,84117,West,PROD-209,Office Supplies,Paper,Copy Paper,864.3,8,0.0,117.01,UPI
+491,CA-35881-494,2025-06-16,2025-06-23,First Class,CU-9957,David Miller,Home Office,United States,Detroit,Michigan,23115,Central,PROD-288,Office Supplies,Binders,File Binder,1431.79,8,0.0,136.24,Credit Card
+492,CA-70718-050,2024-11-03,2024-11-05,Standard Class,CU-7607,neha joshi,Consumer,United States,Chicago,Illinois,26092,Central,PROD-486,Office Supplies,Storage,File Storage,880.2,7,0.05,236.53,PayPal
+493,CA-97099-453,2022-05-03,2022-05-10,First Class,CU-6262,Daniel Anderson,Home Office,United States,Chicago,Illinois,83299,Central,PROD-779,Furniture,Bookcases,Metal Bookcase,1884.19,4,0.1,246.1,UPI
+494,CA-57792-393,2025-01-31,2025-04-02,Second Class,CU-9537,Sarah Wilson,Corporate,United States,New York City,New York,40302,East,PROD-272,Office Supplies,Labels,Address Labels,948.24,8,0.15,165.61,PayPal
+495,CA-82542-439,2022-07-20,2022-07-26,Same Day,CU-1734,Emily White,Home Office,United States,Los Angeles,California,99841,West,PROD-136,Office Supplies,Appliances,Desk Fan,445.87,2,0.1,65.77,PayPal
+496,CA-89896-222,2022-11-08,2022-11-09,Standard Class,CU-3557,Amit Patil,Home Office,United States,San Diego,California,73204,West,PROD-278,Furniture,Bookcases,Wood Bookcase,1071.54,1,0.05,154.0,UPI
+497,CA-94875-168,2025-03-01,2025-03-02,First Class,CU-2301,John Smith,Corporate,United States,Houston,Texas,88500,Central,PROD-590,Office Supplies,Art,Art Pens,935.14,8,0.25,40.53,UPI
+498,CA-98963-179,2023-12-01,2023-01-16,Standard Class,CU-4387,Rahul Sharma,Consumer,United States,Columbus,Ohio,30564,East,PROD-711,Furniture,Furnishings, Office Furnishing ,490.43,8,0.3,26.62,Credit Card
+499,CA-98680-414,2023-06-06,2023-06-11,First Class,CU-1114,emma davis,Corporate,United States,Philadelphia,Pennsylvania,34058,East,PROD-512,Technology,Machines,Calculator,2119.73,1,0.25,203.61,Credit Card
+500,CA-59796-210,2022-06-06,2022-06-13,Standard Class,CU-4042,Robert Jackson,Corporate,United States,Miami,Florida,56478,South,PROD-444,Office Supplies,Art,Art Pens,1611.42,7,0.1,144.8,PayPal
